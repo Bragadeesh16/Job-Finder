@@ -1,0 +1,4400 @@
+id,name
+1,acob
+2,actionscript
+3,acu-cobol
+4,ada
+5,adaplex
+6,al
+7,algol
+8,angular typescript
+9,ansi c
+10,apex
+11,apl
+12,apple script
+13,arm assembler
+14,arm cortex v8/v9 assembler
+15,arm neon vector processing assembler
+16,asn.1
+17,assembler 8051
+18,assembler 8080
+19,assembler 8085
+20,assembler dsp563xx
+21,assembler h
+22,assembler mips r3000-r4000
+23,assembler motorola 6800
+24,assembler motorola 68000
+25,assembler powerpc
+26,assembler sun sparc
+27,assembler x86
+28,assembler z80
+29,awk
+30,baan c
+31,bash
+32,basic
+33,bat
+34,bos
+35,bourne shell
+36,business basic
+37,c
+38,c shell
+39,c#
+40,c/al
+41,c++
+42,cachéscript
+43,cassandra query language
+44,clarion abc
+45,clarion legacy
+46,clist
+47,clojure
+48,cobol
+49,cobol ii
+50,cobol/370
+51,cocoa
+52,coffeescript
+53,comal
+54,concorde xal
+55,csp
+56,css
+57,css3
+58,dart
+59,data analysis expressions
+60,data flex
+61,data manipulation language
+62,ddm
+63,delphi
+64,dl-i
+65,dom
+66,easytrieve +
+67,ecmascript
+68,ecmascript 5
+69,egl
+70,eiffel
+71,elixir
+72,embedded c
+73,erlang
+74,esql
+75,f#
+76,focus
+77,formula
+78,forth
+79,fortran
+80,g++
+81,gherkin
+82,go
+83,gosu
+84,graphql
+85,groovy
+86,haskell
+87,haxe
+88,high level shader language
+89,hsql
+90,html
+91,html5
+92,hypertalk
+93,iar c compiler
+94,ideal
+95,informix
+96,ingres
+97,jass
+98,java
+99,javafx script
+100,javascript
+101,jcl
+102,jpql
+103,jscript
+104,jython
+105,kornshell
+106,kotlin
+107,lexx/yacc
+108,lisp
+109,logo
+110,lotusscript
+111,lua
+112,majic/spel
+113,managed c++
+114,mapbasic
+115,matlab
+116,mdx
+117,meta language
+118,metaassembler
+119,microchip assembler
+120,microsoft visual basic
+121,microsoft visual basic .net
+122,modula 2
+123,modula 3
+124,mumps
+125,mxml
+126,natural
+127,oberon
+128,object pascal
+129,objective-c
+130,oml
+131,oo javascript
+132,openroad
+133,owl
+134,pascal
+135,perl
+136,perl script
+137,personaljava
+138,php
+139,php4
+140,php5
+141,php7
+142,pjl
+143,pl/1
+144,pl/m
+145,pl/sql
+146,plc7
+147,plex
+148,plm
+149,pnuts
+150,postscript
+151,power++
+152,powerhouse
+153,powerhouse qtp
+154,powerscript
+155,powershell
+156,powershell core
+157,pro iv
+158,progress
+159,prolog
+160,psf-afp
+161,python
+162,qbasic
+163,qml
+164,quicktime technologies
+165,r
+166,regex
+167,rexx
+168,rexx for os/2
+169,rm-cobol
+170,rpg
+171,rpg ile
+172,rpg-400
+173,ruby
+174,rust
+175,s@t markup language
+176,saml
+177,sap abap
+178,sas
+179,sas base
+180,sas batch
+181,sas online
+182,sas/sql
+183,sass
+184,scala
+185,scobol
+186,scss
+187,sdl/gr
+188,sdl/pr
+189,shell script
+190,simatic s5
+191,simatic s7
+192,simnet ii
+193,smalltalk
+194,sql
+195,sqr
+196,standard ml
+197,swift
+198,system51
+199,systemverilog
+200,tacl
+201,tcl-tk
+202,tex
+203,tool command language
+204,tpl
+205,t-sql
+206,ttcn
+207,typed assembly language
+208,typescript
+209,ucob
+210,uniface
+211,unified modeling language
+212,unix cobol
+213,unix shell
+214,u-sql
+215,vag
+216,vba
+217,vbscript
+218,verilog
+219,vhsic hardware description language
+220,vispro rexx
+221,visual foxpro
+222,visualforce
+223,wig
+224,wmlscript
+225,wolfram mathematica
+226,wonderware quickscript .net
+227,wsdl
+228,x++
+229,xaml
+230,xarc
+231,xml user interface language
+232,xpath
+233,xquery
+234,xsl
+235,xslt
+236,yaml
+237,.net compact framework
+238,3-tier
+239,active accessibility
+240,active directory
+241,active directory certificate services
+242,active directory federation services
+243,active directory service interface
+244,active server pages
+245,activex
+246,actor pattern
+247,ado
+248,ado.net
+249,advanced function presentation
+250,adverse media
+251,aes
+252,ajax
+253,altera fpga
+254,altera nios soft-core
+255,amazon api gateway
+256,amazon athena
+257,amazon cloudfront
+258,amazon cloudwatch
+259,amazon cognito
+260,amazon data pipeline
+261,amazon dynamodb
+262,amazon ec2
+263,amazon ecs
+264,amazon marketplace web service
+265,amazon s3
+266,amazon sagemaker
+267,amazon sqs
+268,amf
+269,amfphp
+270,andf
+271,apache activemq
+272,apache airflow
+273,apache avro
+274,apache axis2
+275,apache camel
+276,apache cxf
+277,apache felix
+278,apache hadoop
+279,apache hadoop common
+280,apache hadoop mapreduce
+281,apache hadoop yarn
+282,apache hdfs
+283,apache karaf
+284,apache knox gateway
+285,apache lucene
+286,apache mahout
+287,apache myfaces
+288,apache ranger
+289,apache solr
+290,apache spark
+291,apache storm
+292,apache streamsets
+293,apache xmlbeans
+294,apache zookeeper
+295,api
+296,aptix
+297,arcfm enterprise
+298,arcgis
+299,arcims
+300,arcmap
+301,arcobjects
+302,arcsde
+303,arcsight
+304,arcsight esm
+305,arcsight siem
+306,arcview
+307,arcxml
+308,asic
+309,asp.net
+310,asp.net 5/mvc 6
+311,asp.net core mvc
+312,asp.net mvc
+313,asp.net mvc 4
+314,asp.net mvc 5
+315,asp.net web api
+316,atl
+317,atlassian confluence
+318,attribute-based access control
+319,augmented reality
+320,aws cloudtrail
+321,aws cloudwatch
+322,aws codepipeline
+323,aws glue
+324,aws identity and access management
+325,aws iot core
+326,aws lake formation
+327,awt
+328,axis
+329,azure resource manager
+330,beats
+331,biometrics
+332,bitcoin
+333,blowfish
+334,bluetooth
+335,boost c++
+336,box2d
+337,bsd socket
+338,business intelligence markup language
+339,canvas
+340,cascading framework
+341,celery
+342,certification authority service
+343,cgi
+344,change control
+345,chatbot
+346,clariion
+347,clarion
+348,client-server architecture
+349,client-side object model
+350,cmd
+351,code ignitor
+352,codec
+353,codeigniter
+354,codepush
+355,collaborative data objects
+356,com
+357,com/dcom
+358,com+
+359,compass
+360,composer
+361,composite cms
+362,computer telephone integration
+363,contexts & dependency injection
+364,corba
+365,core data
+366,core image
+367,crisc
+368,dao
+369,data retention policy
+370,dbcc
+371,dce
+372,dcom
+373,dde
+374,delphi jedi
+375,des
+376,device drivers
+377,dhtml
+378,dibs
+379,dirxml
+380,django
+381,docbook
+382,docker
+383,docker swarm
+384,document type definition
+385,dom - document object model
+386,dotnetnuke
+387,drm oma
+388,dvb-c
+389,dvb-h
+390,dvb-s
+391,dvb-t
+392,dxf
+393,ebxml
+394,ejb 3.0
+395,elasticsearch
+396,ember.js
+397,emc
+398,encryption
+399,endeavour
+400,enterprise data lake
+401,enterprise java beans
+402,entity relationship diagram
+403,episerver
+404,esd
+405,esri
+406,eureka
+407,experience api
+408,facebook api
+409,facelets
+410,field-programmable gate array
+411,fitnesse
+412,flask
+413,fop
+414,fpml
+415,fql
+416,freemarker
+417,functional safety
+418,gef
+419,geographic data files
+420,geographical information system
+421,git
+422,gnome
+423,google adwords
+424,google analytics
+425,google maps api
+426,google play services
+427,google protocol buffers
+428,google tag manager
+429,google web master tools
+430,google web toolkit
+431,grails
+432,graylog
+433,hacmp
+434,haml
+435,handlebars.js
+436,hateoas
+437,hibernate
+438,hpe 3par
+439,hpe storage
+440,http live streaming
+441,http smooth streaming
+442,hystrix
+443,ibatis dao
+444,ibatis sql maps
+445,ibis
+446,ibm bluemix
+447,ibm cognos
+448,ibm opc
+449,ibm spss
+450,ibm watson
+451,idea
+452,identityserver
+453,imagemagick
+454,informatica powercenter
+455,ip chains
+456,irda
+457,isapi
+458,j2ee jaas
+459,j2se 6.0 - mustang
+460,java annotation
+461,java applet
+462,java beans
+463,java card
+464,java database connectivity
+465,java management extensions
+466,java message service
+467,java native interface
+468,java persistence api
+469,java play framework
+470,java portlets
+471,java rmi
+472,java server pages
+473,java server pages standard tag library
+474,java servlets
+475,java stripes
+476,java swing
+477,java swing synth
+478,java web start
+479,javascriptmvc
+480,javaserver faces
+481,jaxb
+482,jaxp
+483,jax-rs
+484,jcaptcha
+485,jfc /java foundation classes
+486,jini
+487,jndi
+488,jns
+489,jprobe
+490,jprofiler
+491,jsom
+492,json
+493,json.net
+494,jsr 268
+495,jsr168
+496,jts
+497,jwt
+498,jxta
+499,kde
+500,keycloak
+501,kibana
+502,kohana
+503,lambda
+504,laravel
+505,liferay portal enterprise edition
+506,liferay portal standard edition
+507,linq
+508,linq to sql
+509,linq to xml
+510,liv.net
+511,livedata
+512,logstash
+513,lucene
+514,managed extensibility framework
+515,mapi
+516,mapinfo
+517,mapobjects
+518,mbms
+519,mcollective
+520,message sequence chart
+521,mfc
+522,microsoft adcentre
+523,microsoft azure active directory
+524,microsoft azure api management
+525,microsoft azure application insights
+526,microsoft azure data factory
+527,microsoft azure data lake
+528,microsoft azure databricks
+529,microsoft azure expressroute
+530,microsoft azure functions
+531,microsoft azure hdinsight
+532,microsoft azure iaas
+533,microsoft azure logic apps
+534,microsoft azure mfa
+535,microsoft azure paas
+536,microsoft azure saas
+537,microsoft azure security center
+538,microsoft azure service bus
+539,microsoft azure site recovery
+540,microsoft azure sql data warehouse
+541,microsoft azure storage
+542,microsoft azure virtual network
+543,microsoft azure web apps
+544,microsoft compact framework
+545,microsoft direct3d
+546,microsoft directdraw
+547,microsoft directinput
+548,microsoft directmusic
+549,microsoft directplay
+550,microsoft directsetup
+551,microsoft directshow
+552,microsoft directsound
+553,microsoft directx
+554,microsoft message queues
+555,microsoft solutions framework
+556,microsoft xna
+557,mitid
+558,model view viewmodel
+559,mqi
+560,muffins
+561,mva
+562,mvc
+563,mvc razor
+564,mvvmcross
+565,nemid
+566,nhibernate
+567,nightwatch.js
+568,nordic market model
+569,nsapi
+570,n-tier
+571,numerical control
+572,oauth
+573,oauth2
+574,object modeling framework
+575,objectarx
+576,ocx
+577,oid
+578,oio xml
+579,oioubl
+580,okhttp
+581,olap
+582,ole
+583,one-time password
+584,opc
+585,opc ua
+586,opc/esa
+587,open database connectivity
+588,openam
+589,opengl
+590,openid connect
+591,openjump
+592,openssl
+593,operational technology
+594,oracle adf
+595,oracle autonomous transaction processing
+596,oracle responsys
+597,osca
+598,osf-motif
+599,papyrus docexec
+600,pdo
+601,pgp - encryption
+602,pki
+603,portlets
+604,postgis
+605,powerha
+606,powervm
+607,ppfa
+608,profisee mdm
+609,progressive web apps
+610,prototype
+611,pull requests
+612,qgis
+613,quartz
+614,quickturn
+615,rbac
+616,rdf
+617,regedit
+618,remobjects anydac
+619,remobjects hydra
+620,rendezvous
+621,rest
+622,rest api
+623,rest assured
+624,restful design
+625,restful programming
+626,rfi/emi
+627,rhino.mocks
+628,rmi/iiop
+629,rss
+630,rxjava
+631,salesforce api
+632,sap bapi
+633,sap rfc
+634,sax
+635,scribe insight
+636,scriptaculous
+637,secure shell
+638,security baseline
+639,service fabric
+640,set
+641,sgml
+642,sharepoint object model
+643,siem
+644,simatic controllers
+645,single sign-on
+646,single-page application
+647,sitecore dms
+648,sitecore ecm
+649,sitecore foundry
+650,skade.net
+651,smartcard
+652,smil
+653,soap
+654,soar
+655,sphinx
+656,spring
+657,spring boot
+658,spring cloud
+659,spring cloud netflix
+660,spring core
+661,spring mvc
+662,spring security
+663,spring web services
+664,springfox
+665,sql server analysis services
+666,sql server business intelligence
+667,sql server data tools
+668,sql server integration services
+669,sql server management studio
+670,sql server reporting services
+671,sqlj
+672,ssr
+673,stax
+674,sterling integrator
+675,stl
+676,stored procedures
+677,struts
+678,svg
+679,swagger
+680,swing
+681,symfony
+682,symfony 2
+683,symfony 3
+684,symfony 4
+685,system management facilities
+686,systemc
+687,tag libraries
+688,tandem
+689,tapestry
+690,tapi
+691,telelogic rhapsody
+692,tibco::rv
+693,tiles plugin
+694,tmap
+695,tomahawk
+696,topicmap
+697,tp antenna
+698,travis ci
+699,triple des
+700,tsapi
+701,tso/racf
+702,tso-ispf
+703,twain
+704,twitter api
+705,typo3
+706,uart
+707,unity cloud build
+708,unix
+709,unreal engine
+710,vbx
+711,video encoding
+712,voicexml
+713,vrml
+714,vxfs
+715,waffle
+716,wap
+717,wcf
+718,web
+719,web crypto
+720,web part
+721,web scraping
+722,webforms
+723,webgis
+724,webgl
+725,webobjects
+726,websockets
+727,wicket
+728,wiki
+729,win16
+730,win32
+731,winapi
+732,windows bitlocker
+733,windows dna
+734,windows hello
+735,windows media
+736,windows mobile
+737,windows server appfabric
+738,windows workflow foundation
+739,winforms
+740,wininet
+741,winsocket
+742,wml
+743,wonderware application server
+744,wonderware intouch
+745,wpf
+746,wpki
+747,x windows
+748,xacml
+749,xalan
+750,xbrl
+751,xerces
+752,xforms
+753,xhtml
+754,xilinx embedded powerpc
+755,xilinx fpga
+756,xilinx microblaze soft-core
+757,xml
+758,xml parser
+759,xml schema
+760,xmpp
+761,xsd
+762,xvt
+763,yahoo search marketing
+764,youtube api
+765,zapp
+766,zend framework
+767,.net
+768,.net 3.0
+769,.net 3.5
+770,.net 4.0
+771,.net 4.5
+772,.net core
+773,386bsd
+774,a/ux
+775,abc80
+776,adobe marketing cloud
+777,advent portfolio exchange platform
+778,aia interactive digital platform
+779,aix
+780,akamai intelligent platform
+781,algorithmics
+782,alibaba cloud
+783,amazon web services
+784,amiga
+785,android
+786,apache kafka
+787,apache pig
+788,apigee api platform
+789,appian
+790,apple
+791,apple homekit
+792,app-v
+793,aprimo
+794,arch linux
+795,arduino
+796,arkit
+797,asp.net core
+798,automation anywhere
+799,axe-10
+800,axys - advent for asset manager
+801,beos
+802,blackberry os
+803,boomerang
+804,brew
+805,bs2000/osd
+806,bsd unix
+807,c64
+808,calypso
+809,calypso 14
+810,calypso 15
+811,calypso 16
+812,centum vp
+813,cics
+814,citrix
+815,cli
+816,cloudera cdh
+817,cloudera essentials
+818,cocos2d
+819,codewright
+820,com/com+
+821,confluent kafka
+822,coreos container linux
+823,cuda
+824,cyberark privileged access security
+825,cygwin
+826,db2 warehouse manager
+827,dde supermax
+828,debian
+829,dec
+830,dec alpha
+831,dec net
+832,dhtml/dom
+833,digital unix
+834,digital-compaq unix
+835,digitalocean
+836,dos
+837,dos/vse
+838,dow jones dna
+839,drdos
+840,ecos
+841,elastic stack
+842,embedded linux
+843,enterprise objects framework
+844,foundation
+845,freebsd
+846,f-secure
+847,gentoo linux
+848,google cardboard
+849,google chrome os
+850,google cloud platform
+851,google fuchsia
+852,guardian
+853,hp 3000
+854,hp 9000
+855,hp-unix
+856,htc vive
+857,ibm 3090
+858,ibm 3270
+859,ibm as/400
+860,ibm cloud
+861,ibm directory integrator
+862,ibm filenet p8 platform
+863,ibm i
+864,ibm information server
+865,ibm infosphere datastage
+866,ibm infosphere information server
+867,ibm iseries
+868,ibm s/36
+869,ibm s/38
+870,ibm tmf
+871,ibm z/os
+872,informatica
+873,instagram api
+874,intersystems ensemble
+875,ion
+876,ios
+877,ios 8
+878,ipad
+879,iphone os
+880,irix
+881,irix-sgi
+882,ivanti workspace control
+883,j2ee
+884,j2se
+885,jarkarta ee
+886,java ee
+887,java ee 6
+888,java ee 7
+889,java ee 8
+890,java me / j2me
+891,java se
+892,java se 10
+893,java se 11
+894,java se 12
+895,javafx
+896,kana
+897,keylane axon
+898,keylane plexus
+899,kony
+900,kronos
+901,less
+902,linux
+903,linux centos
+904,linux suse
+905,macintosh
+906,macos
+907,macos x server
+908,maemo
+909,mega hopex
+910,metatrader
+911,microsoft
+912,microsoft azure
+913,microsoft azure analysis services
+914,microsoft azure stack
+915,microsoft cluster server
+916,microsoft dos
+917,microsoft hololens
+918,microsoft mediaroom
+919,microsoft terminal server
+920,microsoft tv
+921,microsoft unit testing framework
+922,microsoft windows
+923,microsoft windows 10
+924,microsoft windows 8
+925,microsoft windows ce
+926,microsoft windows server
+927,microsoft windows server 2012
+928,microsoft windows server 2012 r2
+929,microsoft windows server 2016
+930,microsoft windows server 2019
+931,microsoft windows small business server 2003
+932,microstrategy
+933,mulesoft anypoint
+934,mvs
+935,neolane
+936,netbsd
+937,netsuite
+938,netware
+939,nextstep
+940,nintendo
+941,nist cybersecurity framework
+942,novell
+943,novell netware
+944,numerix
+945,numerix oneview
+946,oculus rift
+947,ogo
+948,openbsd
+949,openlink endur
+950,opennebula
+951,openstack
+952,openstep
+953,openvms
+954,ops-mvs
+955,oracle agile plm
+956,oracle erp cloud
+957,oracle hospitality suite8 property
+958,oracle linux
+959,oracle real application cluster
+960,oracle vm
+961,oracle webcenter
+962,os
+963,os/2
+964,os1100
+965,os-390
+966,os-400
+967,ose-delta
+968,outsystems
+969,palmos
+970,playstation
+971,poet
+972,portrait customer interaction suite
+973,progress openedge
+974,puremvc
+975,qnx
+976,red hat linux server
+977,red hat openshift
+978,resin app. server
+979,rightnow cx suite
+980,rolfe & nolan
+981,rs-6000
+982,rtos
+983,rtxcdsp
+984,ruby on rails
+985,s/390
+986,samsung gera vr
+987,sap cloud platform
+988,sap integration
+989,scala play
+990,sco openserver
+991,scvmm
+992,siemens rm400
+993,siemens tc65
+994,sinix
+995,sitecore
+996,slack
+997,sun os
+998,sun solaris os
+999,suse linux enterprise server
+1000,suse linux openexchange server
+1001,swiftnet
+1002,symbian
+1003,t2s
+1004,ti 99/4a
+1005,titaniuim mobile
+1006,tomcat
+1007,tru64
+1008,tso
+1009,ubuntu
+1010,ultrix
+1011,uml/mda
+1012,unisys
+1013,usg unix
+1014,vaadin
+1015,vax
+1016,version 7
+1017,vm/cms
+1018,vms
+1019,vms/esa
+1020,vmware
+1021,vxworks
+1022,way4
+1023,web.py
+1024,webos
+1025,windows embedded
+1026,windows mixed reality
+1027,windows phone
+1028,wordpress
+1029,xbox
+1030,xen
+1031,xenix
+1032,xpages
+1033,xwiki
+1034,z/vm
+1035,zoho creator
+1036,4d
+1037,active dbms
+1038,adabas
+1039,amazon aurora
+1040,amazon relational database service
+1041,apache cassandra
+1042,apache couchdb
+1043,apache hbase
+1044,blockchain
+1045,bmc addb
+1046,bmc baca
+1047,bmc bppm
+1048,bmc discovery
+1049,bmc performance manager
+1050,borland interbase
+1051,borland paradox
+1052,btrieve
+1053,ca-idms
+1054,cds isis
+1055,clarion - topspeed
+1056,clipper
+1057,cloudera impala
+1058,cockroachdb
+1059,corel paradox
+1060,cqrs
+1061,cte
+1062,data transformation services
+1063,database query language
+1064,datacom
+1065,dataflex
+1066,db/400
+1067,db2
+1068,db2 universal database
+1069,db2/2
+1070,dbase
+1071,dbase se
+1072,distributed data management ddm
+1073,distributed database
+1074,dl/1
+1075,documentdb
+1076,dsi-system
+1077,dynamic database management system
+1078,enscribe
+1079,entry sequenced data set
+1080,erwin
+1081,essbase
+1082,event sourcing
+1083,exodus
+1084,faircom isam
+1085,filemaker pro
+1086,firebird
+1087,flexdata
+1088,foxbase+
+1089,foxpro
+1090,frontbase
+1091,functional database
+1092,google cloud firestore
+1093,graph-oriented object database
+1094,ibm information management system
+1095,ibm informix
+1096,ibm netezza
+1097,ibm puredata system for analytics
+1098,ibm unidata
+1099,ibm universe
+1100,idms
+1101,idmsx
+1102,ids/1
+1103,ids2 network database
+1104,image
+1105,independent logical file
+1106,influxdb
+1107,integrated database management system
+1108,intelligent database
+1109,intersystems caché
+1110,mapper
+1111,mariadb
+1112,memcached
+1113,microsoft access
+1114,microsoft azure cosmos db
+1115,microsoft azure sql database
+1116,microsoft azure table storage
+1117,microsoft jet
+1118,microsoft sql server
+1119,microsoft sql server 2014
+1120,microsoft sql server 2016
+1121,microsoft sql server 2017
+1122,microsoft visual foxpro
+1123,mimer
+1124,mindscape lightspeed
+1125,mnesia
+1126,mongodb
+1127,msql
+1128,multics relational data store
+1129,mysql
+1130,mysql workbench
+1131,national database language
+1132,navision database
+1133,neo4j
+1134,network database
+1135,nosql
+1136,object-oriented database
+1137,ole db
+1138,onetick
+1139,on-line analytical processing
+1140,operational database
+1141,oracle
+1142,oracle 10g
+1143,oracle 11g
+1144,oracle 12c
+1145,oracle 13c
+1146,oracle 18c
+1147,oracle 19c
+1148,oracle berkeley db
+1149,oracle berkeley db java edition
+1150,oracle berkeley db xml
+1151,oracle golden gate veridata
+1152,oracle rdb
+1153,oracle xe
+1154,persistent object store
+1155,pervasive.sql
+1156,postgres
+1157,postgresql
+1158,query by example
+1159,query patroller
+1160,quest foglight
+1161,quicksilver
+1162,ravendb
+1163,red brick intelligent sql
+1164,redis
+1165,riak
+1166,sap db
+1167,shareplex
+1168,sql azure
+1169,sqlbase
+1170,sqlite
+1171,ssas tabular
+1172,static database management system
+1173,sybase adaptive server enterprise
+1174,sybase adaptive server iq multiplex
+1175,sybase mobilink
+1176,sybase sql anywhere studio
+1177,sybase sql server
+1178,sybase ultralite
+1179,system r
+1180,tamino
+1181,teradata
+1182,uds/sql
+1183,unify
+1184,versant
+1185,very large database
+1186,virtual storage access method
+1187,vsam
+1188,watcom sql
+1189,wonderware insql
+1190,xbase
+1191,zodb
+1192,4th dimension
+1193,acu-bench
+1194,ads/online
+1195,advanced query tool
+1196,advantage:gen
+1197,adw
+1198,aircom asset
+1199,akka actors
+1200,akka toolkit
+1201,aldec activehdl
+1202,allegro
+1203,allfusion gen
+1204,altera quartus-ii
+1205,altova mapforce
+1206,amazon redshift
+1207,anaconda
+1208,android sdk
+1209,android studio
+1210,andromda
+1211,angular
+1212,angular 2
+1213,angular 4
+1214,angular 5
+1215,angular 6
+1216,angular 7
+1217,angular 8
+1218,angular cli
+1219,angular elements
+1220,angulardart
+1221,angularjs
+1222,antlr
+1223,apache ambari
+1224,apache ant
+1225,apache batik
+1226,apache cordova
+1227,apache crunch
+1228,apache flume
+1229,apache hive
+1230,apache nifi
+1231,apache sqoop
+1232,appbuilder
+1233,appcelerator titanium
+1234,appium
+1235,apple pay
+1236,apple webobjects 5
+1237,appman
+1238,aps - application productivity system
+1239,arcore
+1240,argouml
+1241,arm template
+1242,as/set
+1243,asp.net signalr
+1244,assembler mc6809
+1245,atlassian bitbucket
+1246,attunity
+1247,author-it
+1248,autofac
+1249,autoprefixer
+1250,autotest
+1251,aws batch
+1252,aws cloudformation
+1253,aws database migration service
+1254,aws lambda
+1255,axure rp
+1256,baan tools
+1257,backbone.js
+1258,balsamiq mockups
+1259,bea visual café
+1260,behat
+1261,bem
+1262,blazor
+1263,board station
+1264,bootstrap
+1265,borland c++
+1266,borland jbuilder
+1267,borland turbo c
+1268,borland turbo pascal
+1269,borland turbo prolog
+1270,bower
+1271,breeze.js
+1272,brew sdk
+1273,brew tools
+1274,bts
+1275,bugtracker
+1276,bugzilla
+1277,c/side
+1278,c++ builder
+1279,ca gen
+1280,ca librarian
+1281,ca test data manager
+1282,cacti
+1283,cactus
+1284,cadence
+1285,calypso automated testing tool
+1286,canoo webtest
+1287,case 2000
+1288,casestudio
+1289,castle windsor ioc
+1290,cat tool
+1291,cat@log
+1292,catalyst
+1293,ca-telon
+1294,ccc harvest
+1295,centura sql windows
+1296,ceph
+1297,chai
+1298,chart.js
+1299,cics websupport
+1300,cl
+1301,clear case
+1302,clear quest
+1303,cm synergy
+1304,cmake
+1305,cocoa interface builder
+1306,cocoapods
+1307,code composer studio
+1308,code warrior
+1309,codegear delphi
+1310,codegear rad
+1311,codesniffer
+1312,communicating sequential processes csp
+1313,composite application library
+1314,compuware qacenter
+1315,compuware qadirector
+1316,compuware qarun
+1317,compuware reconcile
+1318,compuware trackrecord
+1319,consurrent versions system
+1320,continuus
+1321,cool:2e
+1322,cool:biz
+1323,cool:gen
+1324,cool:plex
+1325,coredata
+1326,coreimage
+1327,cpanel
+1328,create.js
+1329,cruisecontrol
+1330,cruisecontrol.net
+1331,cryengine
+1332,crystal reports
+1333,css grids
+1334,cucumber
+1335,cypress
+1336,d3.js
+1337,datamanager - visual soft
+1338,datamapper
+1339,db2adm
+1340,dbix::class
+1341,dbunit
+1342,delphi.net
+1343,design architect
+1344,design compiler
+1345,design/1
+1346,designer-2000
+1347,developer-2000
+1348,devexpress .net components
+1349,devexpress components
+1350,devexpress delphi components
+1351,devexpress xaf
+1352,devexpress xpo
+1353,devtrack
+1354,dezign for databases
+1355,dfsort
+1356,dirsync
+1357,dita open toolkit
+1358,doctrine
+1359,dojo
+1360,dottrace
+1361,dox10
+1362,doxygen
+1363,dps
+1364,dragonfly
+1365,durandaljs
+1366,dynamic html
+1367,dynamicweb cms
+1368,dynatrace ajax
+1369,easycase
+1370,easymock
+1371,ecatt
+1372,eclipse
+1373,eclipse plugins
+1374,eclipse rcp
+1375,edit
+1376,edlund.net
+1377,eee
+1378,emacs
+1379,embarcadero c++ builder
+1380,embarcadero delphi
+1381,embarcadero rad studio
+1382,emerson deltav
+1383,emf
+1384,endevor
+1385,enfinity
+1386,entity framework
+1387,entity framework core
+1388,er/studio
+1389,e-sim
+1390,evc++ 4.0
+1391,expect
+1392,express.js
+1393,ext js
+1394,fabric
+1395,fiddler
+1396,fido
+1397,fileaid
+1398,fileaid db2
+1399,filemaker developer
+1400,firebase
+1401,firebug
+1402,flexera admin studio
+1403,flutter
+1404,fme
+1405,focal point
+1406,forehelp
+1407,formgn
+1408,forte
+1409,forte c
+1410,forte c++
+1411,forte for java
+1412,fpga express
+1413,fragments
+1414,freescale mcu
+1415,fxcop
+1416,gcc
+1417,gdb
+1418,gemini
+1419,genesys
+1420,gerrit
+1421,gevent
+1422,gitlab
+1423,gnats
+1424,gns3
+1425,gnu bison
+1426,gnu c
+1427,gojs
+1428,google app engine
+1429,google cast sdk
+1430,gopherjs
+1431,gradle
+1432,graphite
+1433,greendao
+1434,gruntjs
+1435,guardien
+1436,gui designer
+1437,gulp.js
+1438,hashicorp consul
+1439,hashicorp packer
+1440,hashicorp terraform
+1441,hazelcast imdg
+1442,help & manual
+1443,heroku
+1444,hibernate ogm
+1445,hibernate orm
+1446,hibernate orm 3
+1447,hibernate orm 4
+1448,hibernate orm 5
+1449,hibernate search
+1450,hibernate search 4
+1451,hibernate search 5
+1452,highcharts.js
+1453,hp alm
+1454,hp performance center
+1455,hp quality center
+1456,hp quicktest
+1457,hp service test
+1458,hp sitescope
+1459,hp test suite
+1460,hp testdirector
+1461,hyper card
+1462,hyperion dashboard development services
+1463,ibm debug tool
+1464,ibm fault analyzer
+1465,ibm hps
+1466,ibm rational application developer
+1467,ibm rational developer for system z
+1468,ibm rational functional tester
+1469,ibm rational quality manager
+1470,ibm rational software architect
+1471,ibm rational team concert
+1472,ibm sb+
+1473,ibm sterling connect:direct
+1474,icefaces
+1475,impromptu
+1476,infinispan
+1477,infomaker
+1478,infoman
+1479,informix metacube
+1480,infragistics
+1481,infragritics ultrawingrid
+1482,install/1
+1483,installshield
+1484,insted
+1485,intel integrated performance primitives
+1486,intellij
+1487,intertest
+1488,iona
+1489,ionic
+1490,ios sdk
+1491,ipf
+1492,iron speed designer
+1493,jasmine
+1494,java development kit
+1495,java ide
+1496,jax-ws
+1497,jbpm
+1498,jcaps
+1499,jdepend
+1500,jdeveloper 11g
+1501,jedit
+1502,jekyll
+1503,jenkins
+1504,jenkins job dsl plugin
+1505,jenkins pipeline
+1506,jes2
+1507,jes3
+1508,jest
+1509,jface
+1510,jfreechart
+1511,jgroups
+1512,jmeter
+1513,jmock
+1514,jpa
+1515,jqtouch
+1516,jquery
+1517,jquery mobile
+1518,jquery ui
+1519,jspdf
+1520,jsunit
+1521,junit
+1522,justinmind
+1523,jvision
+1524,k2 for sharepoint
+1525,karma
+1526,katalon studio
+1527,keystone.js
+1528,kiokudb
+1529,knockoutjs
+1530,koa.js
+1531,kofax kapow
+1532,kubernetes
+1533,labview
+1534,labwindows/cvi
+1535,laravel homestead
+1536,lauterbach emulator
+1537,leaflet
+1538,lenovo thin installer
+1539,leonardo spectrum
+1540,lex
+1541,libririan
+1542,linc
+1543,liquibase
+1544,llbl gen pro
+1545,loadrunner
+1546,lodash.js
+1547,log4j
+1548,log4net
+1549,lsmw
+1550,madcap flare
+1551,magicaldraw
+1552,make
+1553,mantis
+1554,masonry
+1555,mathcad
+1556,maven
+1557,mentor graphics pads
+1558,mercurial
+1559,mercury load runner
+1560,metal api
+1561,meteor.js
+1562,mfs
+1563,micro focus cobol
+1564,microsoft app-v sequencer
+1565,microsoft azure devops
+1566,microsoft deployment toolkit
+1567,microsoft embedded visual tools 3.0
+1568,microsoft enterprise library
+1569,microsoft expression blend
+1570,microsoft frontpage
+1571,microsoft office infopath
+1572,microsoft orca
+1573,microsoft powerapps
+1574,microsoft sharepoint designer
+1575,microsoft silverlight
+1576,microsoft sms installer
+1577,microsoft sql enterprise manager
+1578,microsoft test manager
+1579,microsoft unity framework
+1580,microsoft visual c
+1581,microsoft visual c++
+1582,microsoft visual interdev
+1583,microsoft visual j++
+1584,microsoft visual modeler
+1585,microsoft visual sourcesafe
+1586,microsoft visual studio
+1587,microsoft visual studio 2015
+1588,microsoft visual studio 2017
+1589,microsoft visual studio 2019
+1590,microsoft visual studio code
+1591,microsoft visual studio lab management
+1592,microsoft visual studio team system
+1593,microsoft visual studio test professional
+1594,microsoft web application stress tool
+1595,microsoft windows installer
+1596,microsoft windows installer xml toolset
+1597,microstation
+1598,middlegen
+1599,mks source integrity
+1600,mmr
+1601,mobile webkit
+1602,mocha
+1603,mockito
+1604,modelsim
+1605,mojolicious
+1606,moment.js
+1607,mono
+1608,moose
+1609,mootools
+1610,moq
+1611,morphx
+1612,mosaico
+1613,motorola emulator til 68705
+1614,ms composite application guidance
+1615,msbuild
+1616,mse magic e-developer
+1617,msi packaging tools
+1618,mstest
+1619,mysql-front
+1620,nant
+1621,national instruments labview
+1622,ncover
+1623,ndepend
+1624,nebula
+1625,nest.js
+1626,netbeans
+1627,netegrity siteminder
+1628,newrelic
+1629,next.js
+1630,nexus
+1631,ngrx
+1632,ni multisim
+1633,ninject
+1634,nlog
+1635,nmock
+1636,node.js
+1637,node-red
+1638,npm
+1639,nuget
+1640,numpy
+1641,nunit
+1642,nx
+1643,object cycle
+1644,object domain
+1645,objekt pascal
+1646,oliver
+1647,oma
+1648,omniscient.js
+1649,oocss
+1650,opencv library
+1651,openlayers
+1652,openscenegraph
+1653,opus
+1654,oracle adf business components
+1655,oracle adf faces
+1656,oracle advanced queue
+1657,oracle advanced replication
+1658,oracle application express
+1659,oracle applications
+1660,oracle bi applications
+1661,oracle bi enterprise edition
+1662,oracle bi publisher
+1663,oracle co-operative applications
+1664,oracle data guard
+1665,oracle designer
+1666,oracle developer
+1667,oracle discoverer
+1668,oracle enterprise manager - dba studio
+1669,oracle financial analyzer
+1670,oracle financials
+1671,oracle forms
+1672,oracle grid control
+1673,oracle interconnect
+1674,oracle olap 10g
+1675,oracle parallel server
+1676,oracle pro*c
+1677,oracle pro*cobol
+1678,oracle recovery manager
+1679,oracle reports
+1680,oracle reportwriter
+1681,oracle rpt/rpf
+1682,oracle sales analyzer
+1683,oracle server manager
+1684,oracle soa suite
+1685,oracle sql developer data modeler
+1686,oracle sql loader
+1687,oracle sql menu
+1688,oracle sqldba
+1689,oracle streams
+1690,oracle warehouse builder
+1691,oracle workflow
+1692,oracle*case
+1693,orcad capture
+1694,orcad layout
+1695,pandas
+1696,papyrus designer
+1697,pathmaker
+1698,pattern lab
+1699,pbdoc
+1700,perforce
+1701,perl orm
+1702,phantomjs
+1703,phonegap
+1704,php mess detector
+1705,phpstorm
+1706,phpunit
+1707,physical compiler
+1708,pillow
+1709,pl/sql developer
+1710,plack
+1711,platinum
+1712,pmw
+1713,pngopt
+1714,polarion alm
+1715,polymer js
+1716,poseidon for uml
+1717,postcss
+1718,postman
+1719,powerbuilder
+1720,powerdesigner
+1721,powergen
+1722,preact
+1723,predict
+1724,predict case
+1725,prettier
+1726,prince
+1727,protractor
+1728,pspice
+1729,pubnub
+1730,push to test
+1731,putty
+1732,pvcs
+1733,pycharm
+1734,pygame
+1735,pygtk
+1736,pyqt
+1737,pyspark
+1738,pytorch
+1739,qacenter
+1740,qacomplete
+1741,qadirector
+1742,qarun
+1743,qmf
+1744,qt
+1745,qt creator
+1746,qtopia
+1747,qualcomm qpst
+1748,quest coexistence manager
+1749,quest migration manager for active director
+1750,quest notes migrator for exchange
+1751,quest notes migrator for sharepoint
+1752,quest sql-navigator
+1753,quest toad
+1754,quick test pro
+1755,qunit
+1756,ractive.js
+1757,rancher
+1758,ranorex
+1759,rapise
+1760,rational ada
+1761,rational application developer
+1762,rational clearcase
+1763,rational clearddts
+1764,rational clearquest
+1765,rational purecoverage
+1766,rational robot
+1767,rational rose
+1768,rational software modeler
+1769,rational teamtest
+1770,rational test suite
+1771,rational unified process
+1772,rational visual purify
+1773,rational visual quantify
+1774,rational visual test
+1775,rdlc
+1776,react native
+1777,reactivecocoa
+1778,reactivex
+1779,reactjs
+1780,readyapi
+1781,reconcile
+1782,redux
+1783,report builder
+1784,reqtest
+1785,require.js
+1786,resharper
+1787,restkit
+1788,retrofit
+1789,revolve
+1790,riot.js
+1791,ris/pacs
+1792,rivets.js
+1793,rm-panels
+1794,robohelp
+1795,robohtml
+1796,ronin
+1797,rspec
+1798,rstudio
+1799,rxcocoa
+1800,rxjs
+1801,rxswift
+1802,saaj
+1803,sails.js
+1804,sap abap workbench
+1805,sap badi
+1806,sap crystal reports
+1807,sap edi tools
+1808,sap smart forms
+1809,sap user exits
+1810,sap.net connector
+1811,sas dde
+1812,sas etl studio
+1813,sas macro
+1814,sas macro command
+1815,sas macro command di
+1816,sas macro command etl
+1817,sas macro di
+1818,sas macro etl
+1819,sas wrs
+1820,sattline
+1821,scala build tool
+1822,scikit-learn
+1823,scipy
+1824,sclm
+1825,scm
+1826,scratchbox
+1827,sdesignor
+1828,sdf
+1829,sdf / sdf ii
+1830,sdo
+1831,sdsf/sdsf2
+1832,seapine - testtrack
+1833,seapine qa wizard
+1834,seapine test track pro
+1835,see
+1836,select se
+1837,selenium
+1838,selenium ide
+1839,selenium webdriver
+1840,semantic ui
+1841,sencha touch
+1842,sensu
+1843,serena changeman zmf
+1844,serilog
+1845,shiny
+1846,shinyjs
+1847,siemens step 7
+1848,silex
+1849,silkperformer
+1850,silktest
+1851,simatic hmi
+1852,simula
+1853,smartinspect
+1854,smarttest
+1855,smp
+1856,snasm
+1857,soapscope
+1858,soapui
+1859,softomotive processrobot
+1860,sonarqube
+1861,source code control system
+1862,sparx system enterprise architect
+1863,spatial etl
+1864,spiratest
+1865,splunk
+1866,spock
+1867,spod
+1868,spufi
+1869,sql navigator
+1870,ssadm-sf
+1871,state management
+1872,stk components
+1873,structuremap
+1874,stsadm
+1875,sun workshop pro
+1876,superbase
+1877,svn
+1878,swig
+1879,swt
+1880,symantec c++
+1881,symantec café
+1882,syncort dbos
+1883,tail
+1884,talend big data
+1885,talend open studio
+1886,team developer
+1887,teamcity
+1888,techsmith snagit
+1889,telerik
+1890,tensorflow
+1891,test script
+1892,testcomplete
+1893,testdirector
+1894,testlink
+1895,testpartner
+1896,teststand
+1897,testtrack
+1898,textmate
+1899,the internet adapter
+1900,three.js
+1901,tia portal
+1902,tia portal v14
+1903,timeextender
+1904,tkinter
+1905,tkprof
+1906,together control center
+1907,tortoisesvn
+1908,trackrecord
+1909,tricentis tosca
+1910,tso/ispf
+1911,twig
+1912,typemock isolator
+1913,uft
+1914,uiq
+1915,ultraedit
+1916,ultramake
+1917,underscore.js
+1918,unicom system architect
+1919,unigui web application framework
+1920,unity
+1921,unity 2017
+1922,unity3d
+1923,uss
+1924,uxpin
+1925,vanillajs
+1926,velocity
+1927,verify
+1928,vermont hightest plus
+1929,vi
+1930,vispro c++
+1931,visual age
+1932,visual age c++
+1933,visual age for java
+1934,visual age generator
+1935,visual builder
+1936,visual paradigm
+1937,visual slickedit devolopment environment for unix
+1938,volley
+1939,vsts test edition
+1940,vue.js
+1941,vuforia
+1942,watcom c++
+1943,watir
+1944,web inspector
+1945,web processing service
+1946,webflow
+1947,weblogic workshop
+1948,webmethods
+1949,webpack
+1950,websphere business integration message broker
+1951,websphere business modeler
+1952,websphere development studio
+1953,websphere integration developer
+1954,websphere studio
+1955,websphere studio application developer
+1956,webvr
+1957,weinre
+1958,wherescape 3d
+1959,wherescape® automation
+1960,wherescape® data vault express
+1961,wherescape® red
+1962,whm
+1963,wijmo control library
+1964,winautomation
+1965,wincc
+1966,windows driver device kit
+1967,windows driver kit
+1968,windows registry
+1969,windows template library
+1970,wireshark
+1971,wise for windows installer
+1972,wise installmaster
+1973,wise package studio
+1974,wxpython
+1975,xamarin
+1976,xamarin.android
+1977,xamarin.forms
+1978,xamarin.ios
+1979,xamarin.mac
+1980,xapian
+1981,xcode
+1982,xdoclet
+1983,xhgui
+1984,xhprof
+1985,xilinx edk
+1986,xilinx ise
+1987,xml spy
+1988,xml thunder
+1989,xmlunit
+1990,xpediter
+1991,xpediter cics
+1992,xpediter tso
+1993,xpf
+1994,xray for jira
+1995,yacc
+1996,yui library
+1997,zephyr
+1998,5nine cloud security
+1999,5nine manager
+2000,acm
+2001,advfs
+2002,alteryx
+2003,altiris deployment suite
+2004,ansible
+2005,aos/vs
+2006,apache 2
+2007,apache tomcat
+2008,apache web server
+2009,apple push notification system
+2010,application infrastructure
+2011,application virtualization
+2012,appsense
+2013,appworx
+2014,aqualogic
+2015,aqualogic data services platform
+2016,aqualogic service bus
+2017,as2 adapter
+2018,as3 adapter
+2019,atlassian bamboo
+2020,atlassian fisheye
+2021,atlassian sourcetree
+2022,autonomy idol server
+2023,axiomatics services manager
+2024,backoffice
+2025,bdd 2007
+2026,berkeley internet name domain
+2027,bigbrother
+2028,biztalk360
+2029,blackberry enterprise server
+2030,blackberry internet service
+2031,blackberry mobile voice system
+2032,blueprism
+2033,bmc control-m
+2034,ca workload automation
+2035,ca-detector
+2036,caucho resin
+2037,cisco packet tracer
+2038,cisco wan manager
+2039,citrix cloudgateway
+2040,citrix edgesite
+2041,citrix hypervisor
+2042,citrix metaframe
+2043,citrix netscaler
+2044,citrix presentation server
+2045,citrix secure hub
+2046,citrix vdi-in-a-box
+2047,citrix virtual apps & desktop
+2048,citrix xenapp
+2049,citrix xendesktop
+2050,codesoft
+2051,cold fusion
+2052,commvault simpana
+2053,content delivery network
+2054,courier-imap
+2055,crossworlds
+2056,cruisecontrol.net server
+2057,cyberark application identity manager
+2058,cyberark enterprise password vault
+2059,cyberark privileged session manager
+2060,db2 performance monitor
+2061,demandware commerce
+2062,desktop virtualization
+2063,desqview
+2064,dfsmsrmm
+2065,directory service
+2066,divine
+2067,driveimage
+2068,drupal
+2069,drupal 5
+2070,drupal 6
+2071,drupal 7
+2072,drupal 8
+2073,eai
+2074,easerver
+2075,easyrecovery
+2076,e-directory
+2077,eflow
+2078,emet
+2079,enhydra application server
+2080,enterprise content management
+2081,enterprise service bus
+2082,entire/x
+2083,entrust authority pki
+2084,entrust getaccess
+2085,epm
+2086,ess
+2087,fatwire
+2088,fedora
+2089,filemaker mobile
+2090,filemaker server
+2091,filemaker server advanced
+2092,forefront unified access gateway
+2093,front arena
+2094,frontec amtrix
+2095,geb
+2096,ghost
+2097,gigaspaces
+2098,github
+2099,gnu
+2100,google search appliance
+2101,haproxy
+2102,harbor/nsm
+2103,hitex ocd tools
+2104,hornetq
+2105,hp business service management
+2106,hp service manager
+2107,hp systems insight manager
+2108,hyperion shared services
+2109,ibm dfsms
+2110,ibm dfsmshsm
+2111,ibm director
+2112,ibm i acs
+2113,ibm infosphere cdc
+2114,ibm mq
+2115,ibm netview ftp
+2116,ibm omegamon
+2117,ibm pcomm
+2118,ibm psf
+2119,ibm rational business developer
+2120,ibm riscwatch processor probe
+2121,ibm security access manager
+2122,ibm security access manager esso
+2123,ibm system i5 express
+2124,ibm tam
+2125,ibm tbsm
+2126,ibm tcim
+2127,ibm tdi
+2128,ibm tdm
+2129,ibm tec
+2130,ibm tip
+2131,ibm tivoli data warehouse
+2132,ibm tivoli monitoring
+2133,ibm tivoli netcool/impact
+2134,ibm tivoli netcool/omnibus
+2135,ibm tivoli netcool/webtop
+2136,ibm tivoli netview
+2137,ibm tivoli software distribution
+2138,ibm tivoli user administration
+2139,ibm tn3270
+2140,ibm tpm
+2141,ibm trc
+2142,ibm tws
+2143,ibm vtam
+2144,idapss
+2145,imagecast
+2146,inprise application server
+2147,iplanet web server
+2148,jamf pro
+2149,java virtual machine
+2150,jboss
+2151,jboss business rules management system
+2152,jboss enterprise application platform
+2153,jboss enterprise data services platform
+2154,jboss enterprise soa platform
+2155,jboss esb
+2156,jboss fuse
+2157,jboss marshalling
+2158,jboss messaging
+2159,jboss operations network
+2160,jboss portal
+2161,jetty
+2162,jfrog artifactory
+2163,jira service desk
+2164,kvm
+2165,lauterbach icd
+2166,lvm
+2167,mainframe express
+2168,mc/serviceguard
+2169,mcafee groupshield
+2170,mediusflow
+2171,merant pvcs version manager
+2172,merva/esa
+2173,microsoft application center 2000
+2174,microsoft azure event hub
+2175,microsoft biztalk esb toolkit
+2176,microsoft biztalk server
+2177,microsoft biztalk server 2010
+2178,microsoft biztalk server 2013
+2179,microsoft biztalk server 2013 r2
+2180,microsoft biztalk server 2016
+2181,microsoft biztalk server adapters
+2182,microsoft cloud app security
+2183,microsoft cms
+2184,microsoft commerce server
+2185,microsoft content management server
+2186,microsoft e-commerce server
+2187,microsoft exchange online
+2188,microsoft exchange server
+2189,microsoft exchange server 2010
+2190,microsoft exchange server 2013
+2191,microsoft exchange server 2016
+2192,microsoft failover cluster manager
+2193,microsoft forefront tmg
+2194,microsoft host integration server 2000
+2195,microsoft hyper-v
+2196,microsoft identity integration server
+2197,microsoft internet information services
+2198,microsoft isa server
+2199,microsoft live communication server
+2200,microsoft lync
+2201,microsoft message queuing
+2202,microsoft office communications server
+2203,microsoft office sharepoint foundation 2010
+2204,microsoft office sharepoint server
+2205,microsoft operations management suite
+2206,microsoft operations manager 2005
+2207,microsoft operations manager 2007
+2208,microsoft proxy server
+2209,microsoft security compliance manager
+2210,microsoft sharepoint
+2211,microsoft sharepoint online
+2212,microsoft sharepoint portal server
+2213,microsoft sharepoint server
+2214,microsoft site server
+2215,microsoft small business server
+2216,microsoft sna server
+2217,microsoft system center
+2218,microsoft system center data protection mgr
+2219,microsoft terminal services manager
+2220,microsoft transaction server
+2221,microsoft virtual desktop infrastructure
+2222,microsoft virtual server 2005
+2223,microsoft web services enhancements
+2224,mks
+2225,mqs
+2226,mqseries
+2227,mrtg
+2228,mule esb
+2229,nagios
+2230,netiq application manager 5.0
+2231,netscape server
+2232,neuron-esb
+2233,nginx
+2234,non stop
+2235,novel zenworks configuration manager
+2236,octopus deploy
+2237,office business applications
+2238,opencms
+2239,opentext archive server
+2240,opentext content server
+2241,openwebcms
+2242,oracle application server
+2243,oracle business process management
+2244,oracle data integrator
+2245,oracle golden gate
+2246,oracle portal
+2247,oracle service bus
+2248,oracle webdb
+2249,oracle xmldb
+2250,orbix
+2251,orion application server
+2252,orsyp $universe
+2253,osgi
+2254,partitionmagic
+2255,pathworks
+2256,pc/104
+2257,postfix
+2258,powermart
+2259,premisql
+2260,prometheus
+2261,proswitch
+2262,proxmox
+2263,puppet
+2264,qemu
+2265,qmail
+2266,rabbitmq
+2267,readsoft invoice processing
+2268,red hat satellite
+2269,red hat satellite 5
+2270,red hat satellite 6
+2271,remobjects dataabstract
+2272,remobjects sdk
+2273,retek
+2274,role tailored client
+2275,rrdtool
+2276,samba
+2277,sccm
+2278,sccm 2007
+2279,sccm 2012
+2280,sccm 2016
+2281,scom
+2282,scom 2007
+2283,scom 2012
+2284,scom 2016
+2285,screwdrivers
+2286,scsm
+2287,sdd
+2288,sdsf
+2289,seebeyon
+2290,sendmail
+2291,server virtualization
+2292,silverstream
+2293,skype for business server 2015
+2294,slf4j
+2295,sql clustering
+2296,squid
+2297,stonebranch universal agent
+2298,stonebranch universal automation center
+2299,stonebranch universal controller
+2300,stonebranch universal data mover
+2301,strobe
+2302,sun glassfish enterprise server
+2303,symantec deployment solution
+2304,symantec netbackup
+2305,synkron.web
+2306,talend integration cloud
+2307,tasking's c166
+2308,tektronix k15 protocoll analyser
+2309,tfs
+2310,tibco adapter sdk
+2311,tibco businessworks
+2312,tibco clustering
+2313,tibco cobol adapters for s/390
+2314,tibco designer
+2315,tibco ejb adapters
+2316,tibco enterprise administration
+2317,tibco enterprise application integration
+2318,tibco enterprise message service
+2319,tibco fault tolerance
+2320,tibco file adapters
+2321,tibco rendezvous
+2322,tibco rendezvous routing daemon
+2323,tng unicenter
+2324,tpx
+2325,tsm/nsm
+2326,tuxedo
+2327,uc4
+2328,uc4 workload manager
+2329,uwsgi
+2330,vagrant
+2331,veeam backup & replication
+2332,veritas cluster server
+2333,veritas netbackup enterprise server
+2334,vertias
+2335,virtualbox
+2336,visualcron
+2337,vmware airwatch
+2338,vmware app volumes
+2339,vmware esx
+2340,vmware esxi
+2341,vmware horizon cloud
+2342,vmware infrastructure
+2343,vmware thinapp
+2344,vmware vcenter chargeback manager
+2345,vmware vcenter configuration manager
+2346,vmware vcenter infrastructure navigator
+2347,vmware vcenter lab manager
+2348,vmware vcenter operations management suite
+2349,vmware vcenter operations manager
+2350,vmware vcenter site recovery manager
+2351,vmware vcloud automation center
+2352,vmware vcloud connector
+2353,vmware vcloud director
+2354,vmware vcloud networking & security
+2355,vmware vcloud suite
+2356,vmware vfabric application director
+2357,vmware vfabric hyperic
+2358,vmware vsphere
+2359,vmware vsphere storage appliance
+2360,vxvm
+2361,wbi message broker
+2362,wbi-fn
+2363,wcf ria services
+2364,wcm
+2365,web content management system
+2366,web server gateway interface
+2367,webboard
+2368,weblogic integration
+2369,weblogic portal server
+2370,weblogic server
+2371,webseal
+2372,websphere application server
+2373,websphere commerce
+2374,websphere datapower
+2375,websphere enterprise service bus
+2376,websphere mq workflow
+2377,websphere portal express
+2378,websphere portal server
+2379,websphere process server
+2380,wildfly
+2381,windows remote desktop services
+2382,windows server update services
+2383,windows services
+2384,windows sharepoint services
+2385,windows virtual pc
+2386,winrunner
+2387,wmi
+2388,xfire
+2389,xinfo
+2390,xmail
+2391,yammer
+2392,yaws web server
+2393,zope
+2394,a/b testing
+2395,acceptance testing
+2396,actuarial mathematics
+2397,actuarial statistics
+2398,acunetix
+2399,advanced mathematics
+2400,advanced risc machines
+2401,advanced statistics
+2402,agile release train
+2403,agile testing
+2404,algorithm design
+2405,application packaging
+2406,archimate
+2407,architecture evaluation
+2408,artifact management
+2409,asap
+2410,as-is process flow
+2411,atomic design principle
+2412,bachman
+2413,basel ii
+2414,basel iii
+2415,bcms
+2416,bdd
+2417,best practice
+2418,black box testing
+2419,booch
+2420,bottom-up testing
+2421,browserstack
+2422,burn-down chart
+2423,burn-up chart
+2424,business continuity management
+2425,business continuity planning
+2426,certified continuity manager
+2427,certified information security manager
+2428,certified information systems auditor
+2429,cip
+2430,cissp
+2431,cloud native
+2432,component test
+2433,concurrent computing
+2434,configuration test
+2435,containerization
+2436,continuous delivery
+2437,continuous delivery pipeline
+2438,continuous deployment
+2439,continuous integration
+2440,counterparty risk
+2441,crd iv
+2442,csdr
+2443,daily scrum
+2444,data as a service
+2445,data design patterns
+2446,data integration patterns
+2447,debugging
+2448,deep learning
+2449,definition of done
+2450,dependency injection
+2451,design control
+2452,design driven development
+2453,design patterns
+2454,design rationale
+2455,digital factory
+2456,disciplined agile delivery
+2457,distributed computing
+2458,distributed tracing
+2459,domain-driven design
+2460,dual-track agile
+2461,dynamic application security testing
+2462,dynamic testing
+2463,emergence
+2464,emir
+2465,empiricism
+2466,epp
+2467,espd
+2468,exploratory testing
+2469,extreme programming
+2470,fatca
+2471,fda 21 cfr part 11
+2472,fda regulations
+2473,financial information exchange
+2474,fmea
+2475,forecast
+2476,functional javascript
+2477,functional testing
+2478,fund accounting
+2479,funnel optimization
+2480,furps+
+2481,gamp
+2482,gamp 4
+2483,gamp 5
+2484,gap analysis
+2485,gatling
+2486,gdpr
+2487,ghost inspector
+2488,good manufacturing practice
+2489,google sprint
+2490,google test
+2491,graceful degradtion
+2492,gray box testing
+2493,gxp
+2494,hierarchical state machines
+2495,hipaa regulations
+2496,hp unified functional testing
+2497,iac
+2498,ibm optim test data management
+2499,ieee 802
+2500,ifrs
+2501,increment
+2502,infrastructure as a service
+2503,integration testing
+2504,inversion of control
+2505,ip multicast
+2506,isae 3402
+2507,iso 15022 - securities
+2508,iso 17799 - data security
+2509,iso 19770 - it asset management
+2510,iso 20000 - service management
+2511,iso 20022 - financial services
+2512,iso 22301 - business continuity management
+2513,iso 27000 - information security management
+2514,iso 27001 - information security management
+2515,iso 27002 - information security management
+2516,iso 27015 - information security management
+2517,iso 29119 - software testing
+2518,iso 31000 - risk management
+2519,iso 31010 - risk management
+2520,iso 9000 - quality management systems
+2521,iso 9001 - quality management systems
+2522,jacobson
+2523,james martin
+2524,kanban
+2525,key performance indicator
+2526,large-scale scrum
+2527,lean - 5s
+2528,lean - hoshin kanri
+2529,lean - kaisen
+2530,lean - kanban
+2531,lean - leveling heijunka
+2532,lean - manufacturing
+2533,lean - one-piece flow
+2534,lean - overall equipment efficiency
+2535,lean - plan do check act
+2536,lean - product family
+2537,lean - single minute exchange of dies
+2538,lean - standard work
+2539,lean - total productive maintenance
+2540,lean - user experience
+2541,lean - value stream mapping
+2542,lean - waste muda
+2543,level design
+2544,liquid computing
+2545,load testing
+2546,log management
+2547,mapreduce
+2548,mapreduce design patterns
+2549,mar
+2550,mathematical methods
+2551,mdsd
+2552,microsoft azure backup
+2553,microsoft dynamics sure step
+2554,microsoft visual studio codedui
+2555,mifid
+2556,mifir
+2557,mooc
+2558,ms foundation
+2559,multicast
+2560,multi-factor authentication
+2561,multithreading
+2562,mvp
+2563,neural networks
+2564,new product development
+2565,non-functional testing
+2566,odata
+2567,official information online
+2568,oocase
+2569,opnfv security vulnerability management
+2570,orm
+2571,owasp
+2572,parallel computing
+2573,passive testing
+2574,patching
+2575,pci compliance
+2576,pci dss
+2577,pci scc
+2578,penetration test
+2579,pep
+2580,perform
+2581,performance testing
+2582,personal data protection act
+2583,php standard recommendation
+2584,pkcs1
+2585,pkcs11
+2586,platform as a service
+2587,prince2 agile
+2588,probability
+2589,product backlog
+2590,product backlog refinement
+2591,proof of concept
+2592,props
+2593,psd2
+2594,pupate
+2595,ralph kimball methodology
+2596,rapid application development
+2597,rapid software testing
+2598,ready
+2599,red team excercise
+2600,regression test
+2601,regular expressions
+2602,risk-based testing
+2603,rup
+2604,sabsa
+2605,sap abap oo
+2606,scalability testing
+2607,scrum board
+2608,scrum team
+2609,scrumworks basic
+2610,scrumworks pro
+2611,secure coding
+2612,security audits
+2613,security by design
+2614,security coding
+2615,security testing
+2616,server hardening
+2617,session-based testing
+2618,sftr
+2619,single euro payments area
+2620,smoke testing
+2621,snowflake
+2622,software as a service
+2623,software craftsmanship
+2624,solid
+2625,solution train
+2626,solvency ii
+2627,specflow
+2628,sprint
+2629,sprint backlog
+2630,sprint goal
+2631,sprint planning
+2632,sprint retrospective
+2633,sprint review
+2634,star schema modeling
+2635,static application security testing
+2636,static testing
+2637,statistical methods
+2638,stress testing
+2639,structured programmering
+2640,structured test
+2641,taa/baa
+2642,technical analysis
+2643,technical debt
+2644,test basis
+2645,test process improvement
+2646,test-driven development
+2647,threat mitigation
+2648,tiber-eu
+2649,to-be process flow
+2650,togaf
+2651,top-down testing
+2652,troubleshooting
+2653,unified communications
+2654,unified messaging
+2655,unit test
+2656,use cases
+2657,user acceptance testing
+2658,user story
+2659,value chain finance
+2660,vci model
+2661,wcag
+2662,white box testing
+2663,w-model
+2664,xaas
+2665,xml security
+2666,yourdon
+2667,zachman
+2668,2g network
+2669,3g network
+2670,3gpp
+2671,3gpp standardization
+2672,4g network
+2673,5g network
+2674,5g nr
+2675,analog digital converter
+2676,ascom rectifier
+2677,autosis
+2678,base station subsystem
+2679,battery
+2680,billing mediation platform
+2681,bsc
+2682,bss
+2683,bss/oss
+2684,business support & control system
+2685,cable technique
+2686,call detail record
+2687,ccn
+2688,ceragon digital microwave link
+2689,clearing house
+2690,common channel signaling system no. 7
+2691,connected tv
+2692,converged communication
+2693,cpe
+2694,cross-connect
+2695,cs
+2696,cwdm
+2697,digital microwave link
+2698,digital multiplexor
+2699,digital node
+2700,digital switch
+2701,direct debit
+2702,dwdm
+2703,edge
+2704,ericsson
+2705,etsi
+2706,femtoceoll
+2707,fixed broadband
+2708,fixed network
+2709,fixed wireless access
+2710,fokus
+2711,g.shdsl
+2712,general packet radio service
+2713,ggsn
+2714,gps
+2715,gsm
+2716,halon-/inergen system
+2717,hdsl
+2718,hsdpa
+2719,hspa
+2720,huawei provisioning
+2721,imt-2000
+2722,initiator
+2723,inmarsat
+2724,intelligent network
+2725,interactive voice response
+2726,interconnect traffic
+2727,interface and migration
+2728,ip
+2729,ip multimedia subsystem
+2730,ip-dslam
+2731,ip-network
+2732,ip-ran
+2733,ip-telephony
+2734,ip-tv
+2735,itu
+2736,lte
+2737,lte physical layer
+2738,md110
+2739,mediation
+2740,mgw
+2741,minilink
+2742,mm1
+2743,mm7
+2744,mms
+2745,mobile broadband
+2746,mobile switching center
+2747,msms
+2748,mss
+2749,multiscreen
+2750,mvno
+2751,nbap
+2752,netact
+2753,nethawk
+2754,network planning
+2755,network subsystem
+2756,nmt
+2757,np
+2758,number portability
+2759,ops
+2760,optical transmission
+2761,ota
+2762,ott
+2763,pdh
+2764,postpaid
+2765,power supply
+2766,prepaid
+2767,provisioning
+2768,ps
+2769,radio chain
+2770,radio planning
+2771,ran
+2772,ran1
+2773,ran2
+2774,ran4
+2775,ranap
+2776,ranos
+2777,rdk
+2778,rnc
+2779,rnsap
+2780,roaming
+2781,roaming/tap3
+2782,rtsp
+2783,sdh
+2784,sea cable
+2785,second screen
+2786,set top box
+2787,sgsn
+2788,short message service center
+2789,sigtran
+2790,sip
+2791,smarttv
+2792,surveillance center
+2793,synchronous digital hierarchy
+2794,tetra
+2795,tmn
+2796,traffica
+2797,universal mobile telecommunications system
+2798,unlicensed mobile access
+2799,ups
+2800,urllc
+2801,usim/sim
+2802,utran interfaces
+2803,v5.x
+2804,vdsl
+2805,vod
+2806,voip
+2807,wbxml
+2808,wcdma
+2809,wi-fi
+2810,wimax
+2811,wireless transmission
+2812,zigbee
+2813,3com hubs
+2814,3com routers
+2815,3com switches
+2816,ace
+2817,acknowledgement
+2818,acms
+2819,adsl
+2820,adsm
+2821,afp
+2822,afs
+2823,alwayson
+2824,analog modem communication
+2825,antivirus software
+2826,apache sentry
+2827,appc
+2828,appn
+2829,arcserve
+2830,arp
+2831,aruba
+2832,asantech universal video platform
+2833,asteriks
+2834,atm
+2835,backup software
+2836,bacnet
+2837,bay hub
+2838,bay switches
+2839,bgp-4
+2840,bitdefender
+2841,bluecoat proxy av
+2842,bluecoat proxy sg
+2843,bluetooth health device profile
+2844,bluetooth low energy
+2845,bluetooth serial port profile
+2846,bluetooth service discovery protocol
+2847,bootp
+2848,brocade network solutions
+2849,brs
+2850,ca unicenter
+2851,can
+2852,capi
+2853,carrier ethernet
+2854,ccar
+2855,ccda
+2856,ccde
+2857,ccdp
+2858,ccent
+2859,ccie
+2860,ccna
+2861,ccnp
+2862,cct
+2863,check point firewall
+2864,chef
+2865,cisco
+2866,cisco aci
+2867,cisco anyconnect
+2868,cisco asa
+2869,cisco call manager
+2870,cisco firepower
+2871,cisco hub
+2872,cisco ios
+2873,cisco ios xr
+2874,cisco ipcc
+2875,cisco ironport
+2876,cisco ise
+2877,cisco nac
+2878,cisco nexus switches
+2879,cisco nx-os
+2880,cisco pix firewall
+2881,cisco router
+2882,cisco switches
+2883,cisco-vpn router
+2884,clearswift secure email gateway
+2885,cmts
+2886,comptel policy management
+2887,content-addressable storage
+2888,continuus versioning system
+2889,cpic
+2890,cslip
+2891,data hub
+2892,dect
+2893,dell force10
+2894,dhcp
+2895,digital certificates
+2896,digital modem communication
+2897,directaccess
+2898,dlp
+2899,dmz
+2900,dns
+2901,docsis
+2902,dynamips
+2903,edifact
+2904,edifact mapping
+2905,emc symmetrix
+2906,eosdh
+2907,ethernet
+2908,f5 networks
+2909,fddi
+2910,fiber optic network
+2911,fip
+2912,fireeye
+2913,fixed line connections
+2914,fmc
+2915,fortigate
+2916,framerelay
+2917,ftp
+2918,gba
+2919,gigabit
+2920,gpib
+2921,h.248
+2922,hardware security modules
+2923,hdlc
+2924,host intrusion detection
+2925,hp loadrunner
+2926,hp openview
+2927,hp procurve
+2928,hpc
+2929,hsm/rmm
+2930,hsrp
+2931,http
+2932,ibm hub
+2933,ibm qradar siem
+2934,ibm router
+2935,ibm switch
+2936,ibm tcm
+2937,ibm tscm
+2938,ids
+2939,iec 60870
+2940,iec 61400-25
+2941,iec 61850
+2942,ikev2
+2943,inet
+2944,infrastructure data center
+2945,intermediate document
+2946,internet group management protocol
+2947,interview
+2948,ip fabric
+2949,ip/ipsec
+2950,ippc
+2951,iptables
+2952,ipv6
+2953,ip-vpn
+2954,ipx/spx
+2955,isdn
+2956,is-is
+2957,itch protocol
+2958,juniper
+2959,junos
+2960,kerberos
+2961,kermit
+2962,lag
+2963,lcd
+2964,ldap
+2965,libcurl
+2966,linux clustering
+2967,load balancing
+2968,lu6.2
+2969,madge isdn switch
+2970,maximum transmission unit
+2971,mcafee antivirus
+2972,metasploit
+2973,microsoft azure iot hub
+2974,microsoft forefront endpoint protection
+2975,microsoft system management server
+2976,milestone xprotect enterprise
+2977,milestone xprotect video management software
+2978,mnp
+2979,mpls
+2980,mqha
+2981,nagle's algorithm
+2982,nessus
+2983,netbeui
+2984,netbios
+2985,netbios/netbeui
+2986,netcool
+2987,netfilter/ipfilter
+2988,netscreen firewall
+2989,network firewall
+2990,network intrusion detection
+2991,network inventory management system
+2992,network topology
+2993,nfs
+2994,nmap
+2995,nntp
+2996,novell border manager
+2997,novell zen works
+2998,ntp
+2999,odi
+3000,openflow
+3001,openview
+3002,openview temip
+3003,oracle sql*net
+3004,osi
+3005,ospf
+3006,ouch protocol
+3007,palo alto
+3008,poe
+3009,pop3
+3010,pop-imap
+3011,ppp
+3012,profibus
+3013,prtg
+3014,quality of service
+3015,rac
+3016,racf
+3017,radio frequency
+3018,radio frequency identification
+3019,radius authentication
+3020,remote method invocation
+3021,remote terminal unit
+3022,retransmission
+3023,rip
+3024,rpc
+3025,rs-232 communication
+3026,rtp
+3027,rtp packet
+3028,rtt
+3029,san
+3030,scanet
+3031,sdlc
+3032,sdp
+3033,secure sockets layer
+3034,serial communication
+3035,skype
+3036,slip
+3037,smpp
+3038,smtp
+3039,sna
+3040,sna communication
+3041,sna-sni
+3042,snmp
+3043,solaris cluster
+3044,solarwinds ipam
+3045,solarwinds lem
+3046,solarwinds ncm
+3047,solarwinds npm
+3048,solarwinds nta
+3049,solarwinds sam
+3050,solarwinds virtualization manager
+3051,solarwinds vnqm
+3052,solarwinds wpm
+3053,sonet
+3054,sophos
+3055,souptcp
+3056,spdy
+3057,spf
+3058,srs
+3059,ssl vpn
+3060,storage area networks
+3061,sun storedge
+3062,swiftnet browse
+3063,swiftnet fileact
+3064,swiftnet interact
+3065,switch technology
+3066,symantec brightmail
+3067,symantec data loss prevention
+3068,symantec endpoint protection
+3069,symantec esm
+3070,symantec intrusion detection and prevention
+3071,sytos
+3072,tcp delayed acknowledgment
+3073,tcp offload engine
+3074,tcp retransmission timeouts
+3075,tcp selective acknowledgment
+3076,tcp/ip
+3077,telnet
+3078,temip
+3079,time-division multiplexing
+3080,tlms
+3081,tokenring
+3082,transmission control protocol
+3083,trend micro internet security
+3084,trend micro mobile security
+3085,trip
+3086,u-commerce
+3087,udp
+3088,umts
+3089,unicast
+3090,usb
+3091,usb technologies
+3092,uucp
+3093,varnish
+3094,virtual private network
+3095,vlan
+3096,volte
+3097,vxlan
+3098,wan switching
+3099,wap gateways
+3100,wap push
+3101,watchguard
+3102,web application firewall
+3103,whatsup gold
+3104,windows firewall
+3105,wins
+3106,wireless security
+3107,wlan
+3108,x.21
+3109,x.25
+3110,x.400
+3111,x.509 digital certificate
+3112,x.75
+3113,xdsl
+3114,xmodem
+3115,zabbix
+3116,zenworks
+3117,z-wave
+3118,+pres enhance
+3119,1c: accounting
+3120,1c: enterprise
+3121,1c: payroll & hr
+3122,1c: trade & warehouse
+3123,acadre
+3124,alfresco
+3125,algo audit and compliance
+3126,algo collateral
+3127,algo collateral decision support
+3128,algo credit limits
+3129,algo credit regulatory capital
+3130,algo operational risk advisory
+3131,alnova
+3132,altiris asset and cmdb
+3133,altiris client & mobile
+3134,altiris security & compliance
+3135,altiris server & infrastructure
+3136,altiris service desk
+3137,altiris wise package studio
+3138,amazon elastic compute cloud
+3139,amdocs - csm
+3140,amdocs - maf
+3141,amdocs - mps
+3142,amdocs - pp
+3143,amdocs clarifycrm 12
+3144,amdocs enabler
+3145,amdocs ensemble
+3146,amipro wordpro
+3147,appdynamics
+3148,apple safari
+3149,aris
+3150,aris for sap netweaver
+3151,arke
+3152,aspect4
+3153,atlassian jira
+3154,atlassian stash
+3155,autosar
+3156,azure information protection
+3157,baan
+3158,bae systems
+3159,bankstandards
+3160,banqsoft view21
+3161,base24
+3162,basware
+3163,billing system from ams
+3164,bizagi business process modelling & notation
+3165,bizagi engine
+3166,bizagi studio
+3167,bizwizard
+3168,bloomberg b-pipe
+3169,bloomberg terminal
+3170,bluefax
+3171,bluenote
+3172,bms-r
+3173,bosh inubit bpm
+3174,business information warehouse
+3175,business intelligence development studio
+3176,business objects cubes
+3177,business objects universe designer
+3178,business process modeling notation
+3179,c2
+3180,ca acf2
+3181,ca clarity ppm
+3182,ca cmdb
+3183,ca common services
+3184,ca csm
+3185,ca deliver
+3186,ca dispatch
+3187,ca msm
+3188,ca netman
+3189,ca opera
+3190,ca ppm
+3191,ca scheduler
+3192,ca spool
+3193,ca technologies
+3194,ca tlms
+3195,ca tpx
+3196,ca unicenter asset management
+3197,ca unicenter asset portfolio management
+3198,ca unicenter autosys job management
+3199,ca unicenter dsm
+3200,ca unicenter knowledge tools
+3201,ca unicenter nsm
+3202,ca unicenter service accounting
+3203,ca unicenter service catalog
+3204,ca unicenter service desk
+3205,ca unicenter service metric analysis
+3206,ca unicenter software delivery
+3207,ca view
+3208,calypso accounting
+3209,calypso cash management
+3210,calypso central clearing
+3211,calypso clearing/matching
+3212,calypso commodity derivatives
+3213,calypso corporate actions
+3214,calypso credit derivatives
+3215,calypso cross asset
+3216,calypso derivatives
+3217,calypso equities
+3218,calypso equity derivatives
+3219,calypso ers compliance
+3220,calypso ers limited
+3221,calypso fixed income
+3222,calypso flow business
+3223,calypso foreign exchange derivatives
+3224,calypso foreign exchange/money market
+3225,calypso front office decision support
+3226,calypso interest rate derivatives
+3227,calypso issuance
+3228,calypso market data
+3229,calypso messaging
+3230,calypso pricing environments
+3231,calypso reference data
+3232,calypso repo/buy-sell back
+3233,calypso reporting
+3234,calypso risk configuration
+3235,calypso risk management
+3236,calypso scheduled tasks
+3237,calypso settlement
+3238,calypso static data
+3239,calypso treasury
+3240,calypso valuation services
+3241,calypso workflows
+3242,calypso workstation
+3243,canto
+3244,cardpac
+3245,cello
+3246,chordiant
+3247,ciam
+3248,clarify
+3249,clickdimensions
+3250,cloudcraze
+3251,compuware applicationvantage
+3252,compuware clientvantage
+3253,compuware qa center perf. ed.
+3254,compuware servervantage
+3255,concorde
+3256,concorde xal creditor
+3257,concorde xal debitor
+3258,concorde xal finance
+3259,concorde xal mps
+3260,concorde xal orders
+3261,concorde xal project
+3262,concorde xal purchase
+3263,concorde xal stock
+3264,corel word perfect
+3265,credit risk technology
+3266,credit risk transfer
+3267,credit value adjustment
+3268,criston precision
+3269,crystal xcelsius
+3270,cube views
+3271,customer center/pricing center
+3272,customer relationship management
+3273,d4 infonet
+3274,damgaard axapta
+3275,damgaard c4
+3276,damgaard c5
+3277,damgaard xal
+3278,datastage
+3279,datasweep advantage
+3280,datawarehousecenter
+3281,digital asset management
+3282,digital dashboard
+3283,docflow
+3284,doculive
+3285,documentum
+3286,docuware
+3287,doors
+3288,dracar
+3289,drools
+3290,e*learning fronter
+3291,e-catalogue
+3292,eclipse birt
+3293,e-conomic
+3294,edlund
+3295,e-income
+3296,electronic patient journal
+3297,electronic point of sale
+3298,emerson syncade suite
+3299,en.safewatch
+3300,endevour
+3301,energy trading & risk management
+3302,enterprise performance management
+3303,episerver commerce
+3304,eudora
+3305,experian
+3306,experian application scorecards
+3307,experian powercurve
+3308,experian strategy design studio
+3309,fed
+3310,fie
+3311,finrep
+3312,flexcube
+3313,floor plan manager
+3314,formpipe lasernet
+3315,formscape
+3316,frango
+3317,geneva
+3318,gentran integration suite
+3319,google apps
+3320,google chrome
+3321,guidewire billingcenter
+3322,guidewire claimcenter
+3323,guidewire client data management
+3324,guidewire insurancesuite
+3325,guidewire live
+3326,guidewire mobile and portals
+3327,guidewire policycenter
+3328,guidewire rating management
+3329,guidewire reinsurance management
+3330,gurock testrail
+3331,gxs application integrator
+3332,gxs enterprise gateway
+3333,gxs workbench
+3334,haiku
+3335,heat client management
+3336,heat cloud service management
+3337,heat enterprise mobility management
+3338,heat service management
+3339,hitachi data systems
+3340,hp business availability center
+3341,hp oo
+3342,hp ppm
+3343,hp rum
+3344,hp tv
+3345,hp ucmdb
+3346,hp ucmdb cm
+3347,hp vugen
+3348,hybris suite
+3349,hyperion
+3350,hyperion financial management
+3351,hyperion interactive reporting
+3352,hyperion planning
+3353,hyperion smart view for office
+3354,i*net
+3355,ibm asf
+3356,ibm bdw
+3357,ibm birt
+3358,ibm blueworks live
+3359,ibm brms
+3360,ibm cognos active reports
+3361,ibm cognos business intelligence
+3362,ibm cognos data manager
+3363,ibm cognos framework manager
+3364,ibm cognos planning
+3365,ibm cognos report studio
+3366,ibm cognos tm1
+3367,ibm cognos transformer
+3368,ibm connections
+3369,ibm content manager ondemand
+3370,ibm domino
+3371,ibm fsdm
+3372,ibm information framework
+3373,ibm infosphere igc
+3374,ibm infosphere information analyzer
+3375,ibm infosphere warehouse
+3376,ibm itera
+3377,ibm lotus quickplace
+3378,ibm lotus quickr
+3379,ibm lotus symphony
+3380,ibm notes
+3381,ibm sametime
+3382,ibm smartcloud control desk
+3383,ibm tim
+3384,ibm tsm
+3385,icbs
+3386,ifs applications
+3387,ifs business enablers
+3388,ifs data migration
+3389,ifs engineering
+3390,ifs financials
+3391,ifs human capital management
+3392,ifs maintenance
+3393,ifs manufacturing
+3394,ifs projects
+3395,ifs sales & service
+3396,ifs supply chain
+3397,ilog jrules
+3398,ims
+3399,infor erp lx
+3400,infor erp xa
+3401,infor m3
+3402,infor syteline erp
+3403,informatica b2b data exchange
+3404,informatica b2b data transformation
+3405,informatica data archive
+3406,informatica data explorer
+3407,informatica data privacy
+3408,informatica data quality
+3409,informatica data subset
+3410,informatica enterprise data integration
+3411,informatica identity resolution
+3412,informatica powerexchange
+3413,infosuite
+3414,infranet
+3415,insis
+3416,interwoven teamsite
+3417,irs tax compliance
+3418,iscala
+3419,itello inca
+3420,itil 4
+3421,java mail
+3422,jbossrules
+3423,jd edwards world
+3424,jeeves
+3425,jira big picture
+3426,jira structure
+3427,jira tempo timesheets
+3428,joomla!
+3429,jupyter notebook
+3430,kie workbench
+3431,kingswaysoft
+3432,krgc & krgs
+3433,laboratory information management systems
+3434,lessor
+3435,life
+3436,lifelink®
+3437,livelink
+3438,lotus 1-2-3
+3439,lotus amipro
+3440,lotus notes
+3441,lotus smartsuite
+3442,maconomy
+3443,magento
+3444,mapx
+3445,master data management
+3446,master data services
+3447,mavim sis
+3448,mcafee epo
+3449,mdoc
+3450,meter data management
+3451,mfi
+3452,microgen ost br
+3453,microsoft 365
+3454,microsoft advanced threat analytics
+3455,microsoft applocker
+3456,microsoft azure information protection
+3457,microsoft crm
+3458,microsoft dynamics - point of sale
+3459,microsoft dynamics - production
+3460,microsoft dynamics 365
+3461,microsoft dynamics 365 - business central
+3462,microsoft dynamics 365 - finance & operations
+3463,microsoft dynamics 365 - marketing
+3464,microsoft dynamics 365 - sales
+3465,microsoft dynamics ax
+3466,microsoft dynamics ax - debitor/creditor
+3467,microsoft dynamics ax - enterprise portal
+3468,microsoft dynamics ax - expense
+3469,microsoft dynamics ax - finance
+3470,microsoft dynamics ax - inventory
+3471,microsoft dynamics ax - production
+3472,microsoft dynamics ax - project
+3473,microsoft dynamics ax - service
+3474,microsoft dynamics ax - trade & logistics
+3475,microsoft dynamics ax - warehouse management
+3476,microsoft dynamics ax - workflow
+3477,microsoft dynamics ax 2012
+3478,microsoft dynamics c5
+3479,microsoft dynamics crm
+3480,microsoft dynamics crm 2011
+3481,microsoft dynamics crm 2013
+3482,microsoft dynamics crm 2015
+3483,microsoft dynamics crm 2016
+3484,microsoft dynamics crm 3.0
+3485,microsoft dynamics crm 4.0
+3486,microsoft dynamics crm online
+3487,microsoft dynamics crm online 2013
+3488,microsoft dynamics crm online 2015
+3489,microsoft dynamics crm online 2016
+3490,microsoft dynamics gp
+3491,microsoft dynamics nav
+3492,microsoft dynamics nav - crm service management
+3493,microsoft dynamics nav - finance
+3494,microsoft dynamics nav - job/ressources
+3495,microsoft dynamics nav - logistics
+3496,microsoft dynamics nav - manufacturing
+3497,microsoft dynamics nav - production
+3498,microsoft dynamics nav - purchase
+3499,microsoft dynamics nav - retail
+3500,microsoft dynamics nav - sales
+3501,microsoft dynamics nav - stock
+3502,microsoft dynamics nav 2015
+3503,microsoft dynamics nav 2016
+3504,microsoft dynamics retail management system
+3505,microsoft dynamics sl
+3506,microsoft dynamics snap
+3507,microsoft enterprise cubes
+3508,microsoft excel
+3509,microsoft exchange online protection
+3510,microsoft fim
+3511,microsoft flow
+3512,microsoft forecaster
+3513,microsoft forms
+3514,microsoft frx
+3515,microsoft identity manager
+3516,microsoft insight and analytics
+3517,microsoft internet explorer
+3518,microsoft intune
+3519,microsoft mail
+3520,microsoft management console
+3521,microsoft office
+3522,microsoft office 2013
+3523,microsoft office 2016
+3524,microsoft office 2019
+3525,microsoft office 365
+3526,microsoft office 365 - advanced threat protection
+3527,microsoft office 365 - roadmap
+3528,microsoft office project server
+3529,microsoft outlook
+3530,microsoft power bi
+3531,microsoft power map
+3532,microsoft power pivot
+3533,microsoft power query
+3534,microsoft power view
+3535,microsoft powerpoint
+3536,microsoft project
+3537,microsoft project online
+3538,microsoft publisher
+3539,microsoft system center orchestrator
+3540,microsoft teams
+3541,microsoft visio
+3542,microsoft word
+3543,midas
+3544,mindmanager
+3545,misys loaniq
+3546,misys summit ft
+3547,misys trade portal
+3548,moodle
+3549,mozilla firefox
+3550,multi+
+3551,multiarchive
+3552,murex
+3553,mychart bedside
+3554,nakisa sap lease administration
+3555,navision
+3556,navision application server
+3557,navision attain
+3558,navision stat
+3559,netapp
+3560,netreveal
+3561,network note manager
+3562,nextgen crm
+3563,nintex forms
+3564,nintex workflow
+3565,nintex workflow cloud
+3566,nova project management system
+3567,novell groupwise
+3568,novell identity manager
+3569,ocr
+3570,omada identity suite
+3571,open view operation
+3572,openidm
+3573,openoffice
+3574,opentext exstream
+3575,opentext vim for sap
+3576,opus booking
+3577,opus journal
+3578,opus medicine
+3579,opus patient
+3580,opus patient progress
+3581,opus workplace
+3582,oracle access manager
+3583,oracle adaptive access manager
+3584,oracle appstech
+3585,oracle atg web commerce
+3586,oracle bpel
+3587,oracle e-business suite
+3588,oracle e-business suite finance
+3589,oracle e-business suite hr
+3590,oracle e-business suite logistics
+3591,oracle enterprise single-sign-on
+3592,oracle entitlements server
+3593,oracle exadata
+3594,oracle fa
+3595,oracle flexcube core banking
+3596,oracle fusion middleware
+3597,oracle hrms
+3598,oracle hyperion enterprise
+3599,oracle identity analytics
+3600,oracle identity federation
+3601,oracle identity manager
+3602,oracle internet directory
+3603,oracle jd edwards enterpriseone
+3604,oracle metasolv
+3605,oracle primavera p6
+3606,oracle primavera p6 analytics
+3607,oracle primavera unifier
+3608,oracle sfm
+3609,oracle universal content management
+3610,orbus iserver
+3611,osisoft pi
+3612,oxid eshop
+3613,papyrus
+3614,pega bix
+3615,pega cpm
+3616,pega crm
+3617,pegarules process commander
+3618,pentaho bi suite
+3619,peoplesoft
+3620,peoplesoft crm
+3621,peoplesoft vantive
+3622,peregrine servicecenter
+3623,pert
+3624,pm3
+3625,podio
+3626,portfolio for jira
+3627,process flow
+3628,proconcept
+3629,profilestage
+3630,progress actional
+3631,progress datadirect shadow
+3632,progress dataxtend semantic integrator
+3633,progress sonic esb
+3634,progress sonicmq
+3635,progress webspeed
+3636,prophix
+3637,proteus
+3638,public 360
+3639,qlik sense
+3640,qlikview
+3641,quadient inspire
+3642,qualitystage
+3643,qualiware analytics
+3644,qualiware business modeler
+3645,qualiware compliance audit and improvement
+3646,qualiware enterprise architecture
+3647,qualiware enterprise integrator
+3648,qualiware enterprise publisher
+3649,qualiware excellence manager
+3650,qualiware health care
+3651,qualiware integration server client
+3652,qualiware lifecycle manager
+3653,qualiware social behavior warehouse
+3654,quark express
+3655,readium
+3656,red hat identity management
+3657,redmine
+3658,redprarie wms
+3659,relation plus
+3660,remedy applications
+3661,remedy ars
+3662,remedy cmdb
+3663,renaissance erp
+3664,resource management system
+3665,reuter's condor
+3666,reuters market data system
+3667,rightnow contact center experience
+3668,rightnow social experience
+3669,rightnow web experience
+3670,riskit
+3671,rms
+3672,sailpoint identityiq
+3673,salesforce lightning
+3674,salesforce marketing
+3675,salesforce pardot
+3676,salesforce sales
+3677,salesforce service
+3678,sanchez profile
+3679,sap ale
+3680,sap am
+3681,sap apo
+3682,sap authorizations
+3683,sap basis
+3684,sap bc
+3685,sap bex
+3686,sap bi
+3687,sap bo
+3688,sap bods
+3689,sap bpc
+3690,sap bsp
+3691,sap business blueprint
+3692,sap business one
+3693,sap business workflow
+3694,sap bw
+3695,sap ca
+3696,sap cats
+3697,sap co
+3698,sap crm
+3699,sap cs
+3700,sap dms
+3701,sap ds
+3702,sap dvm
+3703,sap ebp
+3704,sap ec
+3705,sap ecc
+3706,sap edocument
+3707,sap ehs
+3708,sap ehsm
+3709,sap ep
+3710,sap ewm
+3711,sap f&r
+3712,sap fi
+3713,sap fico
+3714,sap financials
+3715,sap for life sciences
+3716,sap fs
+3717,sap grc
+3718,sap gtm
+3719,sap hana
+3720,sap hcm
+3721,sap hr
+3722,sap hybris
+3723,sap ilm
+3724,sap im
+3725,sap is-a
+3726,sap is-adec
+3727,sap is-afs
+3728,sap is-b
+3729,sap is-bev
+3730,sap is-cwm
+3731,sap is-h
+3732,sap is-her
+3733,sap is-hss
+3734,sap is-ht
+3735,sap is-m
+3736,sap is-min
+3737,sap is-mp
+3738,sap is-oil
+3739,sap is-ps
+3740,sap is-r
+3741,sap is-re
+3742,sap is-rea
+3743,sap is-sp
+3744,sap is-t
+3745,sap is-u
+3746,sap list viewer
+3747,sap lsmw
+3748,sap lumira
+3749,sap marketplace
+3750,sap mdg
+3751,sap mdm
+3752,sap mfs
+3753,sap mm
+3754,sap mobilebusiness
+3755,sap netweaver
+3756,sap pi
+3757,sap plm
+3758,sap pm
+3759,sap po
+3760,sap portal
+3761,sap pos dm
+3762,sap pp
+3763,sap ppm
+3764,sap pp-pi
+3765,sap ps
+3766,sap pscd
+3767,sap pur
+3768,sap qm
+3769,sap r/3
+3770,sap s/4hana
+3771,sap scm
+3772,sap sd
+3773,sap security
+3774,sap sem
+3775,sap sm
+3776,sap smartforms
+3777,sap snc
+3778,sap solution manager
+3779,sap srm
+3780,sap successfactors
+3781,sap tpm
+3782,sap tr
+3783,sap vc
+3784,sap web dynpro for abap
+3785,sap webi
+3786,sap wf
+3787,sap wm
+3788,sap xi
+3789,sas aml
+3790,sas appdev studio
+3791,sas bi platform
+3792,sas cfo vision sas financial management solutions
+3793,sas ci
+3794,sas content categorization
+3795,sas data quality-cleanse
+3796,sas data surveyor for oracle
+3797,sas di studio
+3798,sas eg
+3799,sas em
+3800,sas enterprise reports
+3801,sas fm
+3802,sas hcm
+3803,sas idp
+3804,sas integration technologies
+3805,sas it management solutions
+3806,sas it resource management
+3807,sas it service vision
+3808,sas jmp
+3809,sas ma
+3810,sas management console
+3811,sas olap cubes studio
+3812,sas onlinetutor
+3813,sas ph solutions
+3814,sas pm
+3815,sas risk dimensions
+3816,sas spds
+3817,sas statview
+3818,sas universal odbc driver
+3819,sas va
+3820,sas webhound
+3821,sas/access
+3822,sas/af
+3823,sas/assist
+3824,sas/c compiler
+3825,sas/connect
+3826,sas/eis
+3827,sas/ets
+3828,sas/fsp
+3829,sas/graph
+3830,sas/iml
+3831,sas/intrnet
+3832,sas/macro
+3833,sas/mddb server
+3834,sas/or
+3835,sas/qc
+3836,sas/share
+3837,sas/stat
+3838,sas/toolkit
+3839,sas/warehouse administrator
+3840,scala5
+3841,scanjour
+3842,scanjour captia
+3843,sdc kernesystem
+3844,service asset & configuration management
+3845,service catalogue management
+3846,service charging management
+3847,service continuity management
+3848,service level management
+3849,sharepoint 2010 content
+3850,siebel actuate
+3851,siebel assignment manager
+3852,siebel browser script
+3853,siebel crm
+3854,siebel ebusiness
+3855,siebel ecommunications
+3856,siebel esales
+3857,siebel escript
+3858,siebel tools
+3859,simcorp dimension
+3860,skype for business
+3861,smart test
+3862,sodpow-promise
+3863,sonwin
+3864,squaredup
+3865,star office
+3866,stata
+3867,straight-through processing
+3868,styleman
+3869,sugarcrm
+3870,suitecloud
+3871,sungard
+3872,sunsystems
+3873,sunsystems mis
+3874,sunsystems other
+3875,sunsystems sunaccounts/financials
+3876,sunsystems sunbusiness/order fulfillment
+3877,supercalc
+3878,superoffice
+3879,support magic
+3880,surecomp allnett
+3881,surecomp imex
+3882,swiftalliance access
+3883,swiftalliance gateway
+3884,swiftalliance webstation
+3885,swiftalliance workstation
+3886,syclo work manager
+3887,tableau
+3888,talend application integration
+3889,talend data integration
+3890,talend master data management
+3891,targetprocess
+3892,targit
+3893,taxonomy
+3894,teamviewer
+3895,temenos corebanking
+3896,temenos financial reporting
+3897,temenos prodb
+3898,temenos t24
+3899,templafy
+3900,the health system's organisation register
+3901,thomson reuters enterprise platform
+3902,tia
+3903,tieline
+3904,timeline
+3905,toolbook cbt
+3906,topdesk
+3907,topdesk - asset management
+3908,topdesk - call management
+3909,topdesk - change management
+3910,topdesk - contract management and slm
+3911,topdesk - event management
+3912,topdesk - property management
+3913,topdesk - reservations management
+3914,topdesk - self service desk
+3915,trados tools
+3916,transform
+3917,trello
+3918,tridion r5 cms
+3919,uinode
+3920,uipath
+3921,umbraco
+3922,unified endpoint management
+3923,unit4 agresso/unit4 business world
+3924,veeam one
+3925,veeva vault promomats
+3926,vignette
+3927,visma
+3928,visual page
+3929,walkme
+3930,wallstreet systems
+3931,warehouse manager
+3932,wavelink avalanche
+3933,web analytics
+3934,webfocus
+3935,wendia pob
+3936,windows identity foundation
+3937,windows intune
+3938,winnie
+3939,wordengine
+3940,wordperfect
+3941,workday
+3942,workfront
+3943,workpoint 365
+3944,works
+3945,xellent
+3946,xmpie
+3947,xor
+3948,xrm
+3949,zendesk
+3950,zerto virtual manager
+3951,zerto virtual replication
+3952,adobe acrobat
+3953,adobe after effects
+3954,adobe air
+3955,adobe analytics
+3956,adobe captivate
+3957,adobe coldfusion
+3958,adobe dreamweaver
+3959,adobe experience manager
+3960,adobe fireworks
+3961,adobe flash
+3962,adobe flex
+3963,adobe framemaker
+3964,adobe illustrator
+3965,adobe incopy
+3966,adobe indesign
+3967,adobe photoshop
+3968,adobe photoshop elements
+3969,adobe photoshop lightroom
+3970,adobe premiere
+3971,adobe robohelp
+3972,adobe xd
+3973,articulate storyline
+3974,atomic
+3975,autodesk 3ds max
+3976,autodesk autocad
+3977,autodesk inventor
+3978,autodesk maya
+3979,autodesk revit
+3980,autosketch
+3981,blackboard learn
+3982,blender
+3983,boxee
+3984,cadkey 19
+3985,canvas lms
+3986,chamilo lms
+3987,copywriting
+3988,coreldraw graphics suite
+3989,cornerstone lms
+3990,coursera
+3991,dash
+3992,director mx 2004
+3993,dokeos
+3994,figma
+3995,final cut pro
+3996,final cut pro x
+3997,flinto
+3998,framer
+3999,framer x
+4000,gimp
+4001,grafana
+4002,gtk+
+4003,ilias
+4004,inkscape
+4005,invision
+4006,keynote
+4007,latex
+4008,lightscape
+4009,mapguide open source
+4010,marvel
+4011,material design
+4012,mechanical desktop
+4013,microsoft expression
+4014,microsoft mediaroom presentation framework
+4015,microsoft photodraw
+4016,mockflow
+4017,mpeg-x
+4018,netobjects fusion 4.0
+4019,netobjects fusion mx
+4020,omnigraffle
+4021,openstreetmap
+4022,origami studio
+4023,paintshop pro
+4024,picasso
+4025,principle
+4026,proto.io
+4027,protopie
+4028,quickcad
+4029,rapidui
+4030,scorm package
+4031,set-top box user interfaces
+4032,siemens nx
+4033,sketch
+4034,stones webwriter
+4035,storyboard
+4036,tealium tracking
+4037,techsmith camtasia video editor
+4038,television user interfaces
+4039,totara learn
+4040,trivantis lectora
+4041,tumult hype 3
+4042,user flow
+4043,ux flowchart
+4044,vsdc video editor
+4045,web map service
+4046,webtricity
+4047,whip! viewer
+4048,windows media player
+4049,wireframes
+4050,wtb system topclass lms
+4051,zbrush
+4052,zeplin
+4053,application performance management
+4054,assembla
+4055,basecamp
+4056,bid management
+4057,bpcs
+4058,business english
+4059,business liability
+4060,business recovery
+4061,business requirement analysis
+4062,business requirement documentation
+4063,business structure
+4064,business system
+4065,business vault
+4066,catalogue
+4067,chairman
+4068,content management
+4069,corporate performance management
+4070,customer engagement management
+4071,customer journey
+4072,customer relationship management services
+4073,data quality management
+4074,data vault modelling
+4075,dw 2.0 architecture
+4076,ecocentric management
+4077,economic efficency
+4078,economics - administration
+4079,e-mail marketing
+4080,end to end management
+4081,enovia matrixone
+4082,enterprise analysis
+4083,enterprise information portals
+4084,enterprise reporting
+4085,external environment
+4086,fast esp
+4087,file management
+4088,identity access management
+4089,identity management
+4090,iga
+4091,industrial organization
+4092,information flow management
+4093,information structures
+4094,ishikawa diagram
+4095,it accounting
+4096,k01-standardkontrakt
+4097,k02-standardkontrakt
+4098,k03-standardkontrakt
+4099,learning architecture
+4100,line & staff management
+4101,logistic systems
+4102,logistics management
+4103,management
+4104,management discussion and analysis
+4105,management information system
+4106,managing director
+4107,materials management
+4108,matrix42
+4109,mfa
+4110,micro economics
+4111,microsoft protection and recovery
+4112,misys ti plus
+4113,nice actimize
+4114,opex
+4115,pam
+4116,patch management
+4117,permission marketing
+4118,physical distribution management
+4119,product information management
+4120,purchasing and supply management
+4121,quality management
+4122,quest one identity manager
+4123,request for information
+4124,request for proposal
+4125,request for quotation
+4126,res automation manager
+4127,res it store
+4128,res workspace manager
+4129,resource allocation
+4130,sap is-dfs
+4131,seeburger business integration suite
+4132,servicenow
+4133,small business
+4134,smart requirements
+4135,structured analysis sa
+4136,structured design sd
+4137,structured diagram sd
+4138,structured language sl
+4139,system management
+4140,total productive management
+4141,total quality management
+4142,utility
+4143,wonderware--- architectural patterns
+4144,business process modeling
+4145,command query responsibility segregation
+4146,domain driven design
+4147,microservices
+4148,model-view-controller
+4149,model-view-viewmodel
+4150,object oriented programing
+4151,offentlig information online xml
+4152,restful
+4153,service-oriented architecture
+4154,test driven development
+4155,finance
+4156,government
+4157,insurance
+4158,media
+4159,public sector
+4160,pharmaceutical
+4161,retail
+4162,startup
+4163,internet
+4164,marketing
+4165,finance and insurance
+4166,agile software development
+4167,architecture
+4168,automation
+4169,branching patterns
+4170,cloud computing
+4171,coverage measurement
+4172,devops
+4173,gitflow
+4174,infrastructure
+4175,infrastructure-as-code
+4176,implementation
+4177,integrations
+4178,market analyse
+4179,monitoring
+4180,object oriented design
+4181,object oriented programming
+4182,private cloud
+4183,site reliability
+4184,soa
+4185,static code analyse
+4186,system integration
+4187,ucm branching patterns
+4188,unit testing
+4189,virtualization
+4190,web services
+4191,public cloud operations
+4192,public cloud architecture
+4193,distributed data store operations
+4194,relational database operations
+4195,container orchestration
+4196,application containerization
+4197,continuous software delivery
+4198,software tool development
+4199,agile development
+4200,infrastructure as code
+4201,iot
+4202,scrum
+4203,artificial intelligence
+4204,big data
+4205,chief technology officer
+4206,coaching
+4207,configuration management
+4208,data modeling
+4209,database administrator
+4210,devsecops
+4211,distributed teams
+4212,e-commerce
+4213,education
+4214,fashion
+4215,financial services
+4216,full stack development
+4217,high availability
+4218,infrastructure-as-a-service
+4219,legal services
+4220,machine learning
+4221,medical industry
+4222,multi cloud strategy
+4223,nearshoring
+4224,network
+4225,network architecture
+4226,network security
+4227,news
+4228,platform-as-a-service
+4229,power supply industry
+4230,product owner
+4231,shipping
+4232,sla
+4233,site reliability engineering
+4234,software-as-a-service
+4235,internet of thingsd
+4236,ansible tower
+4237,appveyer
+4238,chocolatey
+4239,grunt
+4240,jenkins ci
+4241,ms build
+4242,puppet enterprise
+4243,puppet pipelines
+4244,serverless
+4245,subversion
+4246,team foundation server
+4247,terraform
+4248,libpod / podman
+4249,lxc
+4250,solaris zones
+4251,qemu/kvm
+4252,cassandra
+4253,kafka
+4254,druid
+4255,couchdb
+4256,berkeley db
+4257,oracle db
+4258,ms sql server
+4259,dynamodb
+4260,mssql
+4261,solr
+4262,akamai
+4263,amazon simple storage service
+4264,aws cli
+4265,azure
+4266,google cloud
+4267,jira
+4268,oracle cloud
+4269,application developer framework
+4270,c#.net
+4271,express
+4272,nodejs
+4273,pyinstaller
+4274,bash / sh
+4275,nodejs / javascript
+4276,dapper
+4277,extensible markup language
+4278,hadoop
+4279,mapr
+4280,ms sql server
+4281,oracle db
+4282,centos
+4283,rancheros
+4284,windows server
+4285,gnu/linux
+4286,redhat enterprise linux
+4287,fedora server
+4288,amazon linux
+4289,atomic host
+4290,ubuntu server
+4291,debian gnu/linux
+4292,container linux
+4293,alpine linux
+4294,solaris
+4295,apache2
+4296,internet information server
+4297,oracle weblogic
+4298,apigee
+4299,cdn
+4300,ironmq
+4301,jboss application server
+4302,varnish cache
+4303,redhat jboss
+4304,ibm websphere
+4305,git flow
+4306,jenkins declarative pipeline
+4307,jenkins pipeline libaries
+4308,jenkins scripted pipeline
+4309,circle ci
+4310,concourse ci
+4311,beats family
+4312,datadog
+4313,loggly
+4314,papertrail
+4315,pingdom
+4316,server density
+4317,apache
+4318,api gateway
+4319,artifactorry
+4320,blaze
+4321,cloudformation
+4322,cloudwatch
+4323,codebuild
+4324,codedeploy
+4325,codepipeline
+4326,consignor
+4327,consul
+4328,ecs
+4329,eloquent
+4330,gettext
+4331,github enterprise
+4332,gulp
+4333,helm
+4334,htm
+4335,iis
+4336,meteor
+4337,micro services
+4338,molecule
+4339,onesignal
+4340,openshift
+4341,phalcon
+4342,pipelining
+4343,raspberry pi
+4344,spacebars
+4345,spinnaker
+4346,vpc
+4347,jfrog xray
+4348,yml
+4349,windows
+4350,bitbucket
+4351,ant
+4352,pip
+4353,packer
+4354,css lint
+4355,pc-lint
+4356,profactor
+4357,qacpp
+4358,selenium grid
+4359,blazemeter
+4360,dotcover
+4361,ghostinspector
+4362,rhino mock
+4363,k6
+4364,nose
+4365,docker hub
+4366,docker svarm
+4367,os x / mac os
+4368,redhat linux
+4369,windows nt
+4370,windows server 2k
+4371,cascading style sheets
+4372,dsi system
+4373,html
+4374,java 2 enterprise edition
+4375,java 2 standard edition
+4376,joomla
+4377,opencv
+4378,react js
+4379,saml authentication
+4380,visual basic for applications
+4381,visual studio
+4382,web service specifications
+4383,websocket
+4384,windows communication foundation
+4385,windows presentation foundation
+4386,clearcase
+4387,fogbugz
+4388,kiln
+4389,visual studio team service
+4390,docker-compose
+4391,elastifile
+4392,juju
+4393,kubectl
+4394,libfaketime
+4395,maas
+4396,swarm
+4397,atom
+4398,visual studio code
+4399,elk

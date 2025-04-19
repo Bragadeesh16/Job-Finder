@@ -1,0 +1,27 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="{% static 'css/login.css' %}">
+</head>
+<body>
+    {% for message in messages %}
+        {% if message.tags %}
+            <div class="alert alert-{{ message.tags }}">{{ message }}</div>
+        {% else %}
+            <div class="alert">{{ message }}</div>
+        {% endif %}
+    {% endfor %}
+
+    <form action="" method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Login</button>
+        <a href="{% url 'User-Register' %}">User Register</a>
+        <a href="{% url 'Organization-register' %}">Organization Register</a>
+    </form>
+</body>
+</html>

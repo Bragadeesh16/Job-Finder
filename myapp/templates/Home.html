@@ -1,0 +1,69 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Job Portal</title>
+    <link rel="stylesheet" href="{% static 'myapp-css/home.css' %}">
+</head>
+<body>
+    <div class="user-info">
+        Logged in as: {{ request.user.username }}
+    </div>
+
+    <!-- Job Filter Form -->
+    <form method="post" class="filter-form">
+        {% csrf_token %}
+        {{ job_filter_form.as_p }}
+        <input type="hidden" name="search_filter" value="1">
+        <button type="submit">Filter</button>
+    </form>
+
+    <!-- Job List -->
+    <div class="job-list">
+        {% for job in job_post %}
+            <div class="job-card" onclick="openModal({{ job.id }})">
+                <p>{{ job.title }}</p>
+                <p>{{ job.organization_name }}</p>
+                {% if job.location %}
+                    <span>{{ job.location }} & </span><span>{{ job.location_type }}</span>
+                {% else %}
+                    <span>{{ job.location_type }}</span>
+                {% endif %}
+                <p>{{ job.experience_level }}</p>
+                <p>{{ job.salary }}</p>
+                <p>{{ job.created_at }}</p>
+            </div>
+
+            <!-- Modal -->
+            <div class="modal" id="modal-{{ job.id }}">
+                <div class="modal-content">
+                    <span class="close-btn" onclick="closeModal({{ job.id }})">&times;</span>
+                    <form method="post" action="{% url 'home' %}">
+                        {% csrf_token %}
+                        <input type="hidden" name="apply_job" value="1">
+                        <input type="hidden" name="job_post_id" value="{{ job.id }}">
+                        <input type="hidden" name="job_post_owner_id" value="{{ job.owner.id }}">
+
+                        <h3>{{ job.title }}</h3>
+                        <p>{{ job.organization_name }}</p>
+                        {% if job.location %}
+                            <span>{{ job.location }} & </span><span>{{ job.location_type }}</span>
+                        {% else %}
+                            <span>{{ job.location_type }}</span>
+                        {% endif %}
+                        <p>{{ job.experience_level }}</p>
+                        <p>{{ job.salary }}</p>
+                        <p>{{ job.created_at }}</p>
+                        <p>{{ job.description }}</p>
+
+                        <button type="submit">Apply</button>
+                    </form>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+
+    <script src="{% static 'js/home.js' %}"></script>
+</body>
+</html>
