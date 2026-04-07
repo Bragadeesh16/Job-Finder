@@ -1,6 +1,5 @@
 from django import forms
 from myapp.models import Jobpost,LOCATION_TYPE,EXPERIENCE,JOB_TYPE,EMPLOYMENT_TYPE
-from account.models import skills,CitiesModel
 
 class JobPostForm(forms.ModelForm):
     title = forms.CharField(widget=forms.TextInput(
@@ -18,9 +17,9 @@ class JobPostForm(forms.ModelForm):
         "placeholder":"Enter the salary",
         "class": "form-control",
     }))
-    location = forms.ModelChoiceField(
-        queryset=CitiesModel.objects.all(),
-        widget=forms.Select(attrs={'class': 'form-control'}),required=False
+    location = forms.CharField(
+        required=False,
+        widget=forms.TextInput(attrs={'class': 'form-control', 'placeholder':'E.g. Remote, Default City'})
     )
     location_type = forms.ChoiceField(choices=LOCATION_TYPE, widget=forms.Select(
         attrs={
@@ -40,12 +39,10 @@ class JobPostForm(forms.ModelForm):
         "class":"form-control",
         }))
     
-    skills_required = forms.ModelMultipleChoiceField(
-    queryset=skills.objects.all(),
-    widget=forms.SelectMultiple(attrs={
-        'class': 'form-control select2',
-        'style': 'width: 100%;'
-    }))
+    skills_required = forms.CharField(
+        required=False,
+        widget=forms.TextInput(attrs={'class': 'form-control', 'placeholder':'E.g. Django, CSS'})
+    )
     
     class Meta:
         model = Jobpost
@@ -53,45 +50,10 @@ class JobPostForm(forms.ModelForm):
                   "job_type","employment_type",
                   "experience_required","location","location_type","skills_required"]
 
-class JobFilterForm(forms.ModelForm):
-    organization_name = forms.CharField(widget=forms.TextInput(
-            attrs={
-                "placeholder": "Enter the organization name",
-                "class": "form-control",
-            }
-        ))
-    location_type = forms.CharField(widget= forms.TextInput(attrs={
-        "placeholder":"Enter the job location",
-        "class": "form-control",
-    }))
-
-    salary = forms.DecimalField(widget= forms.NumberInput(attrs={
-        "placeholder":"Enter the salary",
-        "class": "form-control",
-    }))
-    location = forms.CharField(widget= forms.TextInput(attrs={
-        "placeholder":"Enter the job type or location ",
-        "class": "form-control",
-    }))
-    job_name = forms.ChoiceField(widget=forms.Select(
-            attrs={
-                "placeholder": "select the required skills",
-                "class": "form-control",
-            }
-        ))
-    
-    class Meta:
-        model = Jobpost
-        fields = ["title","description","salary","location","skills_required"]
-
-
 class JobFilterForm(forms.Form):
-    job_name = forms.ModelChoiceField(
-        queryset=Jobpost.objects.all(),
+    job_name = forms.CharField(
         required=False,
-        widget=forms.Select(attrs={
-            'class': 'form-control'
-        })
+        widget=forms.TextInput(attrs={'class': 'form-control', 'placeholder':'Job Title...'})
     )
     location_type = forms.ChoiceField(
         required=False,
@@ -100,17 +62,17 @@ class JobFilterForm(forms.Form):
             'class': 'form-control'
         })
     )
-    location = forms.ModelChoiceField(
-        queryset=CitiesModel.objects.all(),
+    location = forms.CharField(
         required=False,
+        widget=forms.TextInput(attrs={'class': 'form-control', 'placeholder':'City/Location...'})
+    )
+    job_type = forms.ChoiceField(
+        required=False,
+        choices=JOB_TYPE, 
         widget=forms.Select(attrs={
-            'class': 'form-control'
+        "class":"form-control",
         })
     )
-    job_type = forms.ChoiceField(choices=JOB_TYPE, widget=forms.Select(
-        attrs={
-        "class":"form-control",
-        }))
 
     organization_name = forms.CharField(
         required=False,
@@ -128,11 +90,7 @@ class JobFilterForm(forms.Form):
         })
     )
     
-    skills_required = forms.ModelMultipleChoiceField(
-        queryset=skills.objects.all(),
+    skills_required = forms.CharField(
         required=False,
-        widget=forms.SelectMultiple(attrs={
-            'class': 'form-control select2',
-            'style': 'width: 100%;'
-        })
+        widget=forms.TextInput(attrs={'class': 'form-control', 'placeholder': 'Search by skills'})
     )

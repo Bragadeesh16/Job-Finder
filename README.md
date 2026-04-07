@@ -26,7 +26,14 @@ Job-Finder is a Django-based job board application. The database running underne
    - Start the `db` container which uses `postgres:15` to host the PostgreSQL database.
    - Run the initial Django database migrations to set up your tables automatically.
    
-3. **Access the application**:
+3. **Populate Dummy Data (Jobs and Organization)**:
+   To see the application in action with sample data, run the seeding script:
+   ```bash
+   docker compose exec web python manage.py shell < seed_dummy_data.py
+   ```
+   *This will create a dummy Google organization and 4 sample job posts.*
+   
+4. **Access the application**:
    Open a web browser and navigate to:
    [http://localhost:8000](http://localhost:8000)
 

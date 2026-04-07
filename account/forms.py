@@ -1,6 +1,6 @@
 from django import forms
 from django.contrib.auth.forms import UserCreationForm
-from account.models import CustomUser,Organization,UserProfile,CountiesModel,CitiesModel,skills
+from account.models import CustomUser,Organization,UserProfile
 
 class UserRegisterForm(UserCreationForm):
     email = forms.EmailField(
@@ -96,13 +96,13 @@ class OrganizationProfileForm(forms.ModelForm):
             }
         )
     )
-    country = forms.ModelChoiceField(
-        queryset=CountiesModel.objects.all(),
-        widget=forms.Select(attrs={'class': 'form-control'})
+    country = forms.CharField(
+        required=False,
+        widget=forms.TextInput(attrs={'class': 'form-control', 'placeholder': 'Enter Country'})
     )
-    city = forms.ModelChoiceField(
-        queryset=CitiesModel.objects.all(),
-        widget=forms.Select(attrs={'class': 'form-control'})
+    city = forms.CharField(
+        required=False,
+        widget=forms.TextInput(attrs={'class': 'form-control', 'placeholder': 'Enter City'})
     ) 
 
     address = forms.CharField(
@@ -114,6 +114,7 @@ class OrganizationProfileForm(forms.ModelForm):
         )
     )
     website = forms.URLField(
+        required=False,
         widget=forms.TextInput(
             attrs={
                 "placeholder": "Enter website URL",
@@ -122,6 +123,7 @@ class OrganizationProfileForm(forms.ModelForm):
         )
     )
     description = forms.CharField(
+        required=False,
         widget=forms.Textarea(
             attrs={
                 "placeholder": "Enter description like what type of work you do",
@@ -136,16 +138,17 @@ class OrganizationProfileForm(forms.ModelForm):
 
 class UserProfileForm(forms.ModelForm):
 
-    country = forms.ModelChoiceField(
-        queryset=CountiesModel.objects.all(),
-        widget=forms.Select(attrs={'class': 'form-control'})
+    country = forms.CharField(
+        required=False,
+        widget=forms.TextInput(attrs={'class': 'form-control', 'placeholder': 'Enter Country'})
     )
-    city = forms.ModelChoiceField(
-        queryset=CitiesModel.objects.all(),
-        widget=forms.Select(attrs={'class': 'form-control'})
+    city = forms.CharField(
+        required=False,
+        widget=forms.TextInput(attrs={'class': 'form-control', 'placeholder': 'Enter City'})
     )
 
     address = forms.CharField(
+        required=False,
         widget=forms.TextInput(
             attrs={
                 "placeholder": "Enter location",
@@ -171,9 +174,9 @@ class UserProfileForm(forms.ModelForm):
             }
         ),
     )
-    skills = forms.ModelChoiceField(
-        queryset=skills.objects.all(),
-        widget=forms.Select(attrs={'class': 'form-control'})
+    skills = forms.CharField(
+        required=False,
+        widget=forms.TextInput(attrs={'class': 'form-control', 'placeholder': 'E.g. Python, SQL, React'})
     )
 
     class Meta:

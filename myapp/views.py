@@ -101,7 +101,6 @@ def Job_Post_View(request):
                 form.organization_name = organization.name
                 form.organization = organization
                 form.save()
-                form.save_m2m()
                 messages.success(request, 'Job posted successfully!')
                 return redirect('home')
             else:

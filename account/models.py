@@ -25,8 +25,8 @@ class Organization(models.Model):
     user = models.OneToOneField(CustomUser, on_delete=models.CASCADE, related_name='organization')
     name = models.CharField(max_length=100, unique=True)
     logo = models.ImageField(upload_to="organization_logos/", blank=True, null=True)
-    country = models.ForeignKey('CountiesModel', on_delete=models.CASCADE, blank=True, null=True)
-    city = models.ForeignKey('CitiesModel', on_delete=models.CASCADE, blank=True, null=True)
+    country = models.CharField(max_length=100, blank=True, null=True)
+    city = models.CharField(max_length=100, blank=True, null=True)
     address = models.TextField()
     website = models.URLField(max_length=200, blank=True, null=True)
     description = models.TextField(blank=True, null=True)
@@ -37,12 +37,12 @@ class Organization(models.Model):
 
 class UserProfile(models.Model):
     user = models.OneToOneField(CustomUser, on_delete=models.CASCADE, related_name="profile")
-    country = models.ForeignKey('CountiesModel', on_delete=models.CASCADE, blank=True, null=True)
-    city = models.ForeignKey('CitiesModel', on_delete=models.CASCADE, blank=True, null=True)
+    country = models.CharField(max_length=100, blank=True, null=True)
+    city = models.CharField(max_length=100, blank=True, null=True)
     address = models.CharField(max_length=255, blank=True, null=True)
     profile_picture = models.ImageField(upload_to="profile_pictures/", blank=True, null=True)
     resume = models.FileField(upload_to="resumes/", blank=True, null=True)
-    skills = models.ForeignKey('skills', on_delete=models.CASCADE, blank=True, null=True)
+    skills = models.CharField(max_length=255, blank=True, null=True)
 
     def __str__(self):
         return f"{self.user.email}'s Profile"
