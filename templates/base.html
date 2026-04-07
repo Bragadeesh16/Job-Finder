@@ -1,0 +1,127 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Job Finder{% endblock %}</title>
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Main Style -->
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    <header class="navbar">
+        <div class="nav-container main-container">
+            <a href="{% url 'home' %}" class="logo">
+                <i class="fa-solid fa-briefcase"></i> JobFinder
+            </a>
+            <nav class="nav-links">
+                <a href="{% url 'home' %}">Find Jobs</a>
+                {% if request.user.is_authenticated %}
+                    {% if request.user.is_organization %}
+                        <!-- Organization links -->
+                        <a href="{% url 'job-post' %}">Post a Job</a>
+                        <a href="{% url 'profile' %}">Dashboard</a>
+                    {% else %}
+                        <!-- User links -->
+                        <a href="{% url 'applited-jobs' %}">My Applications</a>
+                        <a href="{% url 'profile' %}">Build Profile</a>
+                    {% endif %}
+                    <a href="{% url 'notification' %}" class="notification-icon">
+                        <i class="fa-regular fa-bell"></i>
+                    </a>
+                    
+                    <div class="user-dropdown">
+                        <div class="user-avatar">
+                            {% if request.user.is_organization and request.user.organization.logo %}
+                                <img src="{{ request.user.organization.logo.url }}" alt="Org Logo">
+                            {% elif not request.user.is_organization and request.user.profile.profile_picture %}
+                                <img src="{{ request.user.profile.profile_picture.url }}" alt="User PP">
+                            {% else %}
+                                <div class="avatar-placeholder">{{ request.user.username|make_list|first|upper }}</div>
+                            {% endif %}
+                        </div>
+                        <div class="dropdown-menu">
+                            <a href="{% url 'profile' %}">Profile Setup</a>
+                            <a href="{% url 'logout' %}" class="logout-link">Logout</a>
+                        </div>
+                    </div>
+                {% else %}
+                    <a href="{% url 'login' %}" class="btn btn-outline">Login</a>
+                    <a href="{% url 'User-Register' %}" class="btn btn-primary">Sign Up</a>
+                    <a href="{% url 'Organization-register' %}" class="btn btn-primary-light">Employer?</a>
+                {% endif %}
+            </nav>
+        </div>
+    </header>
+
+    <main class="page-content">
+        {% if messages %}
+            <div class="messages-container main-container">
+                {% for message in messages %}
+                    <div class="alert alert-{{ message.tags }}">
+                        {{ message }}
+                        <button class="close-alert">&times;</button>
+                    </div>
+                {% endfor %}
+            </div>
+        {% endif %}
+
+        {% block content %}
+        {% endblock %}
+    </main>
+
+    <footer class="footer">
+        <div class="main-container footer-content">
+            <div class="footer-brand">
+                <h2><i class="fa-solid fa-briefcase"></i> JobFinder</h2>
+                <p>Connecting top talent with the world's best companies. Elevate your career with JobFinder.</p>
+            </div>
+            <div class="footer-links">
+                <div class="link-group">
+                    <h4>Job Seekers</h4>
+                    <a href="#">Search Jobs</a>
+                    <a href="#">Create Resume</a>
+                    <a href="#">Career Advice</a>
+                </div>
+                <div class="link-group">
+                    <h4>Employers</h4>
+                    <a href="#">Post a Job</a>
+                    <a href="#">Search Candidates</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 JobFinder Platform. Built to scale.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Alert dismissal
+        document.querySelectorAll('.close-alert').forEach(button => {
+            button.addEventListener('click', () => {
+                button.parentElement.style.opacity = '0';
+                setTimeout(() => button.parentElement.remove(), 300);
+            });
+        });
+
+        // Dropdown toggle
+        const dropdown = document.querySelector('.user-dropdown');
+        if (dropdown) {
+            dropdown.addEventListener('click', (e) => {
+                dropdown.classList.toggle('active');
+            });
+            document.addEventListener('click', (e) => {
+                if(!dropdown.contains(e.target)) {
+                    dropdown.classList.remove('active');
+                }
+            });
+        }
+    </script>
+</body>
+</html>

@@ -1,20 +1,73 @@
-{% load static %}
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>New Job Post</title>
-    <link rel="stylesheet" href="{% static 'myapp-css/Job-Post.css' %}">
-</head>
-<body>
-    <div class="form-container">
-        <h2>Create New Job Post</h2>
-        <form action="" method="post">
+{% extends 'base.html' %}
+{% block title %}Post a Job - JobFinder{% endblock %}
+
+{% block content %}
+<div class="main-container">
+    <div style="max-width: 800px; margin: 0 auto; background: var(--bg-card); padding: 40px; border-radius: var(--border-radius); box-shadow: var(--shadow-md);">
+        <h2 style="margin-bottom: 10px; font-size: 1.8rem; color: var(--text-main);">Post a New Job</h2>
+        <p style="color: var(--text-muted); margin-bottom: 30px;">Reach thousands of job seekers today.</p>
+        
+        <form action="" method="post" enctype="multipart/form-data">
             {% csrf_token %}
-            {{ form.as_p }}
-            <button type="submit">Submit</button>
+            
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+                <div class="form-group" style="grid-column: span 2;">
+                    <label>{{ form.title.label }}</label>
+                    {{ form.title }}
+                </div>
+                
+                <div class="form-group">
+                    <label>{{ form.job_type.label }}</label>
+                    {{ form.job_type }}
+                </div>
+                
+                <div class="form-group">
+                    <label>{{ form.employment_type.label }}</label>
+                    {{ form.employment_type }}
+                </div>
+                
+                <div class="form-group">
+                    <label>{{ form.salary.label }} ($)</label>
+                    {{ form.salary }}
+                </div>
+                
+                <div class="form-group">
+                    <label>{{ form.experience_required.label }}</label>
+                    {{ form.experience_required }}
+                </div>
+                
+                <div class="form-group">
+                    <label>{{ form.location_type.label }}</label>
+                    {{ form.location_type }}
+                </div>
+                
+                <div class="form-group">
+                    <label>{{ form.location.label }} (Optional)</label>
+                    {{ form.location }}
+                </div>
+                
+                <div class="form-group" style="grid-column: span 2;">
+                    <label>{{ form.skills_required.label }}</label>
+                    {{ form.skills_required }}
+                    <small style="color:var(--text-muted);">Hold Ctrl/Cmd to select multiple.</small>
+                </div>
+                
+                <div class="form-group" style="grid-column: span 2;">
+                    <label>{{ form.description.label }}</label>
+                    <textarea name="{{ form.description.name }}" class="form-control" rows="6" placeholder="Describe the job duties, requirements, and benefits..."></textarea>
+                </div>
+            </div>
+
+            {% if form.errors %}
+            <div class="alert alert-danger" style="margin-top: 10px;">
+                Please correct the errors in the form.
+            </div>
+            {% endif %}
+            
+            <div style="margin-top: 30px; display: flex; justify-content: flex-end;">
+                <button type="submit" class="btn btn-primary" style="padding: 12px 40px; font-size: 1.1rem;"><i class="fa-solid fa-paper-plane" style="margin-right:8px;"></i> Publish Job</button>
+            </div>
         </form>
     </div>
-</body>
-</html>
+</div>
+{% endblock %}

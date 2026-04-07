@@ -1,13 +1,121 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    {{ user_organization.website }}
-    {{ user_organization.created_at }}
-    {{ user_organization.description }}
-</body>
-</html>
+{% extends 'base.html' %}
+{% block title %}My Profile - JobFinder{% endblock %}
+
+{% block content %}
+<div class="main-container">
+    <div style="max-width: 900px; margin: 0 auto;">
+        <div style="background: var(--bg-card); padding: 40px; border-radius: var(--border-radius); box-shadow: var(--shadow-md); margin-bottom: 30px;">
+            <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 30px; border-bottom: 1px solid var(--border-color); padding-bottom: 20px;">
+                <div style="display: flex; align-items: center; gap: 20px;">
+                    {% if user_organization %}
+                        <div class="user-avatar" style="width: 80px; height: 80px; font-size: 2rem;">
+                            {% if user_organization.logo %}
+                                <img src="{{ user_organization.logo.url }}" alt="Logo">
+                            {% else %}
+                                <div class="avatar-placeholder">{{ user_organization.name|make_list|first|upper }}</div>
+                            {% endif %}
+                        </div>
+                        <div>
+                            <h2 style="font-size: 1.8rem; margin-bottom: 5px;">{{ user_organization.name }}</h2>
+                            <span style="color: var(--text-muted); font-size: 0.95rem;">Employer Account</span>
+                        </div>
+                    {% else %}
+                        <div class="user-avatar" style="width: 80px; height: 80px; font-size: 2rem;">
+                            {% if user_profile.profile_picture %}
+                                <img src="{{ user_profile.profile_picture.url }}" alt="Logo">
+                            {% else %}
+                                <div class="avatar-placeholder">{{ request.user.first_name|default:request.user.username|make_list|first|upper }}</div>
+                            {% endif %}
+                        </div>
+                        <div>
+                            <h2 style="font-size: 1.8rem; margin-bottom: 5px;">{{ request.user.get_full_name|default:request.user.username }}</h2>
+                            <span style="color: var(--text-muted); font-size: 0.95rem;">Job Seeker Account</span>
+                        </div>
+                    {% endif %}
+                </div>
+                
+                <a href="{% url 'edit_profile' %}" class="btn btn-outline" style="border-radius: 20px;">
+                    <i class="fa-solid fa-pen" style="margin-right: 8px;"></i> Edit Info
+                </a>
+            </div>
+
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; font-size: 1.05rem;">
+                {% if user_organization %}
+                    <div>
+                        <strong>Email:</strong> <p style="color: var(--text-muted); margin-bottom: 15px;">{{ request.user.email }}</p>
+                        <strong>Location:</strong> <p style="color: var(--text-muted); margin-bottom: 15px;">{{ user_organization.city|default:"-" }}, {{ user_organization.country|default:"-" }}</p>
+                    </div>
+                    <div>
+                        <strong>Phone Number:</strong> <p style="color: var(--text-muted); margin-bottom: 15px;">{{ request.user.phone_number }}</p>
+                        <strong>Website:</strong> <p style="color: var(--text-muted); margin-bottom: 15px;">{{ user_organization.website|default:"-" }}</p>
+                    </div>
+                    <div style="grid-column: span 2;">
+                        <strong>Address:</strong> <p style="color: var(--text-muted); margin-bottom: 15px;">{{ user_organization.address|default:"-" }}</p>
+                        <strong>Description:</strong> <p style="color: var(--text-muted); margin-top: 8px; line-height: 1.6;">{{ user_organization.description|default:"No description provided." }}</p>
+                    </div>
+                {% else %}
+                    <!-- Job seeker profile view block -->
+                    <div>
+                        <strong>Email:</strong> <p style="color: var(--text-muted); margin-bottom: 15px;">{{ request.user.email }}</p>
+                        <strong>Location:</strong> <p style="color: var(--text-muted); margin-bottom: 15px;">{{ user_profile.city|default:"-" }}, {{ user_profile.country|default:"-" }}</p>
+                    </div>
+                    <div>
+                        <strong>Phone Number:</strong> <p style="color: var(--text-muted); margin-bottom: 15px;">{{ request.user.phone_number }}</p>
+                        <strong>Top Skills:</strong> <p style="color: var(--primary-color); font-weight:500; margin-bottom: 15px;">{{ user_profile.skills|default:"Not specified" }}</p>
+                    </div>
+                    <div style="grid-column: span 2;">
+                        <strong>Address:</strong> <p style="color: var(--text-muted); margin-bottom: 15px;">{{ user_profile.address|default:"-" }}</p>
+                        <strong>Resume:</strong> 
+                        <p style="margin-top: 8px;">
+                            {% if user_profile.resume %}
+                                <a href="{{ user_profile.resume.url }}" target="_blank" class="btn btn-primary-light" style="padding: 6px 15px;"><i class="fa-solid fa-file-pdf"></i> View Resume</a>
+                            {% else %}
+                                <span style="color: var(--danger);">No resume uploaded yet.</span>
+                            {% endif %}
+                        </p>
+                    </div>
+                {% endif %}
+            </div>
+        </div>
+
+        {% if user_organization %}
+        <!-- Active Job Postings Dashboard -->
+        <div style="background: var(--bg-card); padding: 40px; border-radius: var(--border-radius); box-shadow: var(--shadow-md);">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
+                <h3 style="font-size: 1.5rem;"><i class="fa-solid fa-list-check"></i> Manage Job Postings</h3>
+                <a href="{% url 'job-post' %}" class="btn btn-primary"><i class="fa-solid fa-plus"></i> Post New Job</a>
+            </div>
+            
+            <table style="width: 100%; border-collapse: collapse; text-align: left;">
+                <tr style="background: var(--bg-main); border-bottom: 2px solid var(--border-color);">
+                    <th style="padding: 12px 15px;">Job Title</th>
+                    <th style="padding: 12px 15px;">Date Posted</th>
+                    <th style="padding: 12px 15px;">Applicants</th>
+                    <th style="padding: 12px 15px;">Actions</th>
+                </tr>
+                {% for job in request.user.jobposts.all %}
+                <tr style="border-bottom: 1px solid var(--border-color);">
+                    <td style="padding: 15px;"><strong>{{ job.title }}</strong><br><span style="font-size:0.85rem; color:var(--text-muted);">{{ job.location_type }} &bull; {{ job.job_type|title }}</span></td>
+                    <td style="padding: 15px;">{{ job.created_at|date:"M d, Y" }}</td>
+                    <td style="padding: 15px;">
+                        <span style="background: var(--primary-light); color: var(--primary-hover); padding: 4px 10px; border-radius: 15px; font-weight: 600; font-size: 0.9rem;">
+                            {{ job.applied_users.count }}
+                        </span>
+                    </td>
+                    <td style="padding: 15px;">
+                        <a href="{% url 'job-applicants' job.id %}" class="btn btn-outline" style="padding: 6px 12px; font-size: 0.85rem;">View Candidates</a>
+                    </td>
+                </tr>
+                {% empty %}
+                <tr>
+                    <td colspan="4" style="text-align: center; padding: 30px; color: var(--text-muted);">
+                        No jobs posted yet. Click "Post New Job" to hire.
+                    </td>
+                </tr>
+                {% endfor %}
+            </table>
+        </div>
+        {% endif %}
+    </div>
+</div>
+{% endblock %}

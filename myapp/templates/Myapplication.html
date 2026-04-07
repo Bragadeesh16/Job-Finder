@@ -1,11 +1,44 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
-</html>
+{% extends 'base.html' %}
+{% block title %}My Applications - JobFinder{% endblock %}
+
+{% block content %}
+<div class="main-container">
+    <div style="max-width: 900px; margin: 0 auto;">
+        <h1 style="font-size: 2rem; margin-bottom: 10px;">My Applications</h1>
+        <p style="color: var(--text-muted); margin-bottom: 30px;">Track the status of the jobs you've applied for.</p>
+        
+        <div style="display: flex; flex-direction: column; gap: 15px;">
+            {% for job in jobs %}
+            <div style="background: var(--bg-card); padding: 20px; border-radius: var(--border-radius); border: 1px solid var(--border-color); display: flex; justify-content: space-between; align-items: center; box-shadow: var(--shadow-sm);">
+                <div style="display: flex; gap: 20px; align-items: center;">
+                    <div style="width: 50px; height: 50px; background: var(--bg-main); border-radius: var(--border-radius-sm); border: 1px solid var(--border-color); display: flex; align-items: center; justify-content: center; overflow: hidden;">
+                        {% if job.organization.logo %}
+                            <img src="{{ job.organization.logo.url }}" style="width: 100%; height: 100%; object-fit: cover;">
+                        {% else %}
+                            <span style="color: var(--primary-color); font-weight: 700;">{{ job.organization_name|make_list|first|upper }}</span>
+                        {% endif %}
+                    </div>
+                    <div>
+                        <a href="{% url 'job-detail' job.id %}"><h3 style="font-size: 1.2rem; color: var(--text-main);">{{ job.title }}</h3></a>
+                        <p style="color: var(--text-muted); font-size: 0.95rem;">{{ job.organization_name }} &bull; {{ job.location_type|title }}</p>
+                    </div>
+                </div>
+                
+                <div style="display: flex; align-items: center; gap: 20px;">
+                    <div style="background: #d1fae5; color: #065f46; padding: 6px 15px; border-radius: 20px; font-weight: 500; font-size: 0.85rem; border: 1px solid #34d399;">
+                        Applied Successfully
+                    </div>
+                    <a href="{% url 'job-detail' job.id %}" class="btn btn-outline" style="padding: 6px 15px;">Review</a>
+                </div>
+            </div>
+            {% empty %}
+            <div style="text-align: center; padding: 60px 20px; background: var(--bg-card); border-radius: var(--border-radius); border: 1px solid var(--border-color);">
+                <h3 style="color: var(--text-main); margin-bottom: 10px;">No Applications Yet</h3>
+                <p style="color: var(--text-muted); margin-bottom: 20px;">You haven't applied to any jobs yet. Start browsing!</p>
+                <a href="{% url 'home' %}" class="btn btn-primary">Find Jobs</a>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,4 @@
+Django==5.0.7
+django-import-export
+Pillow
+psycopg2-binary

@@ -69,6 +69,6 @@ class Jobpost(models.Model):
 
 class Notification_model(models.Model):
     sender = models.ForeignKey(CustomUser, on_delete=models.CASCADE, related_name="notification_sender")
-    reveiver = models.ForeignKey(CustomUser, on_delete=models.CASCADE, related_name="notification_reveiver")
+    receiver = models.ForeignKey(CustomUser, on_delete=models.CASCADE, related_name="notification_receiver")
     message = models.TextField()
     file = models.FileField(upload_to='files/', null=True, blank=True)

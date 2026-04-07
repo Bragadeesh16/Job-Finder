@@ -1,27 +1,33 @@
-{% load static %}
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <link rel="stylesheet" href="{% static 'css/login.css' %}">
-</head>
-<body>
-    {% for message in messages %}
-        {% if message.tags %}
-            <div class="alert alert-{{ message.tags }}">{{ message }}</div>
-        {% else %}
-            <div class="alert">{{ message }}</div>
-        {% endif %}
-    {% endfor %}
+{% extends 'base.html' %}
+{% block title %}Login - JobFinder{% endblock %}
 
-    <form action="" method="post">
-        {% csrf_token %}
-        {{ form.as_p }}
-        <button type="submit">Login</button>
-        <a href="{% url 'User-Register' %}">User Register</a>
-        <a href="{% url 'Organization-register' %}">Organization Register</a>
-    </form>
-</body>
-</html>
+{% block content %}
+<div class="auth-wrapper">
+    <div class="auth-sidebar">
+        <h1>Welcome Back to JobFinder</h1>
+        <p>Log in to apply for top jobs or find your next great hire.</p>
+    </div>
+    <div class="auth-form-container">
+        <div class="auth-card">
+            <h2>Log In</h2>
+            <p>Access your JobFinder account</p>
+            <form action="" method="post">
+                {% csrf_token %}
+                {% for field in form %}
+                <div class="form-group">
+                    <label>{{ field.label }}</label>
+                    {{ field }}
+                    {% if field.errors %}<span style="color:red; font-size:0.85em;">{{ field.errors.0 }}</span>{% endif %}
+                </div>
+                {% endfor %}
+                <button type="submit" class="btn btn-primary" style="width:100%; margin-top:10px; font-size:1.1rem; padding: 12px;">Login</button>
+                <div style="margin-top: 25px; text-align:center; font-size: 0.9rem;">
+                    Don't have an account?<br/>
+                    <a href="{% url 'User-Register' %}" style="display:inline-block; margin: 10px 10px 0 0; font-weight:600;">Job Seeker</a> &bull;
+                    <a href="{% url 'Organization-register' %}" style="display:inline-block; margin: 10px 0 0 10px; font-weight:600;">Employer</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock %}

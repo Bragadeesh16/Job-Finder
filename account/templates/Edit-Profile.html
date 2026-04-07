@@ -1,17 +1,28 @@
-{% load static %}
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Form Page</title>
-    <link rel="stylesheet" href="{% static 'css/Edit-Profile.css' %}">
-</head>
-<body>
-    <form action="" method="post">
-        {% csrf_token %}
-        {{ form.as_p }}
-        <button type="submit">Submit</button>
-    </form>
-</body>
-</html>
+{% extends 'base.html' %}
+{% block title %}Edit Profile - JobFinder{% endblock %}
+
+{% block content %}
+<div class="main-container">
+    <div style="max-width: 600px; margin: 0 auto; background: var(--bg-card); padding: 40px; border-radius: var(--border-radius); box-shadow: var(--shadow-md);">
+        <h2 style="margin-bottom: 30px; font-size: 1.8rem; color: var(--text-main);">Configure Your Profile</h2>
+        
+        <form action="" method="post" enctype="multipart/form-data">
+            {% csrf_token %}
+            {% for field in form %}
+            <div class="form-group">
+                <label>{{ field.label }}</label>
+                {{ field }}
+                {% if field.help_text %}
+                <small style="color: var(--text-muted); display:block; margin-top:4px;">{{ field.help_text }}</small>
+                {% endif %}
+                {% if field.errors %}<span style="color:red; font-size:0.85em;">{{ field.errors.0 }}</span>{% endif %}
+            </div>
+            {% endfor %}
+            <div style="margin-top: 30px; display: flex; gap: 15px;">
+                <button type="submit" class="btn btn-primary" style="padding: 10px 30px; font-size: 1.05rem;">Save Changes</button>
+                <a href="{% url 'home' %}" class="btn btn-outline" style="padding: 10px 30px;">Cancel</a>
+            </div>
+        </form>
+    </div>
+</div>
+{% endblock %}

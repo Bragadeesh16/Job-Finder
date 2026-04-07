@@ -1,25 +1,32 @@
-{% load static %}
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Register</title>
-    <link rel="stylesheet" href="{% static 'css/User-Register.css' %}">
-</head>
-<body>
-    <h1>User Register</h1>
-    <div class="register-container">
-        <form action="" method="post">
-            {% csrf_token %}
-            {{ form.as_p }}
-            <button type="submit">Register</button>
-            <div class="links">
-                <a href="{% url 'login' %}">Login</a>
-                <a href="{% url 'Organization-register' %}">Organization Register</a>
-            </div>
-        </form>
+{% extends 'base.html' %}
+{% block title %}Job Seeker Registration - JobFinder{% endblock %}
 
+{% block content %}
+<div class="auth-wrapper">
+    <div class="auth-sidebar">
+        <h1>Accelerate Your Career</h1>
+        <p>Create a job seeker profile to discover thousands of matching opportunities.</p>
     </div>
-</body>
-</html>
+    <div class="auth-form-container">
+        <div class="auth-card">
+            <h2>Job Seeker Sign Up</h2>
+            <p>Create an account to browse and apply for jobs.</p>
+            <form action="" method="post">
+                {% csrf_token %}
+                {% for field in form %}
+                <div class="form-group">
+                    <label>{{ field.label }}</label>
+                    {{ field }}
+                    {% if field.errors %}<span style="color:var(--danger); font-size:0.85em;">{{ field.errors.0 }}</span>{% endif %}
+                </div>
+                {% endfor %}
+                <button type="submit" class="btn btn-primary" style="width:100%; margin-top:10px; padding: 12px; font-size: 1.1rem;">Register</button>
+                <div style="margin-top: 25px; text-align:center; font-size: 0.9rem;">
+                    <a href="{% url 'login' %}">Already have an account? Login</a><br/>
+                    <a href="{% url 'Organization-register' %}" style="display:inline-block; margin-top:10px; font-weight:500;">Wait, I'm an Employer</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock %}

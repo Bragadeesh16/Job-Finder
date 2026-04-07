@@ -101,6 +101,8 @@ def Job_Post_View(request):
                 form.organization_name = organization.name
                 form.organization = organization
                 form.save()
+                form.save_m2m()
+                messages.success(request, 'Job posted successfully!')
                 return redirect('home')
             else:
                 messages.error(request,form.errors)
@@ -111,32 +113,62 @@ def Job_Post_View(request):
 
 
 def Job_Filter_view(request):
-    form = None
-    pass
+    return redirect('home')
 
-def Job_Apply_view(request,pk):
-
+@login_required
+def Job_Apply_view(request, pk):
     if request.method == 'POST':
-        
         return redirect('home')
     return render(request, "Jobs-Apply.html")
 
+@login_required
+def Job_Detail_View(request, pk):
+    try:
+        job = Jobpost.objects.get(id=pk)
+    except Jobpost.DoesNotExist:
+        messages.error(request, "Job does not exist.")
+        return redirect('home')
+    
+    has_applied = job.applied_users.filter(id=request.user.id).exists()
+    
+    if request.method == 'POST' and 'apply_job' in request.POST:
+        sender = CustomUser.objects.get(email=request.user.email)
+        receiver = job.owner
+        job.applied_users.add(sender)
+        job.save()
+
+        Notification_model.objects.create(
+            sender=sender,
+            receiver=receiver,
+            message=f"{sender.first_name or sender.username} applied for the job '{job.title}'"
+        )
+        messages.success(request, "Successfully applied for the job.")
+        return redirect('job-detail', pk=pk)
+
+    return render(request, "Job-Detail.html", {"job": job, "has_applied": has_applied})
+
+@login_required
 def Notification_Views(request):
-    user = CustomUser.objects.get(email = request.user.email)
-    message = Notification_model.objects.get(reveiver = user)
-    return render(request,"Notification.html",{"message":message})
+    user = CustomUser.objects.get(email=request.user.email)
+    notifications = Notification_model.objects.filter(receiver=user).order_by('-id')
+    return render(request, "Notification.html", {"notifications": notifications})
 
-def Seprate_Message(request,pk):
-    if request.method == "POST":
-        sender = CustomUser.objects.get(email = request.user.email)
-        reveiver = CustomUser.objects.get(id = pk)
-        message = request.POST.GET('chat')
-        file = request.POST.FILE
-        notification = Notification_model.objects.create(sender = sender,reveiver = reveiver,
-                                                        message = message,file = file)
-        notification.save()
-        return redirect('Chat',reveiver.id)
-    return render(request, "Seprate-Message.html",{})
+@login_required
+def Seprate_Message(request, pk):
+    return redirect('notification')
 
-def Applited_Job_View(request):
-    pass
+@login_required
+def Applied_Job_View(request):
+    user = CustomUser.objects.get(email=request.user.email)
+    jobs = Jobpost.objects.filter(applied_users=user)
+    return render(request, "Myapplication.html", {"jobs": jobs})
+
+@login_required
+def Job_Applicants_View(request, pk):
+    job = Jobpost.objects.get(id=pk)
+    if job.owner != request.user:
+        messages.error(request, "You do not have permission to view this.")
+        return redirect('home')
+    
+    applicants = job.applied_users.all()
+    return render(request, "Applicants.html", {"job": job, "applicants": applicants})
